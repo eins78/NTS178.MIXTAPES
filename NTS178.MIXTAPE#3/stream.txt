@@ -1,0 +1,57 @@
+http://butt.sourceforge.net
+http://blog.joshdzielak.com/blog/2012/11/21/live-stream-audio-from-osx-mountain-lion-with-icecast-and-darkice/
+
+darkice - commandlinetool; hab nur leider keine langwierige erfahrung damit. ist aber wohl /standart/ software und wird auch professionell eingesetzt.
+
+darkice
+DarkIce is a live audio streamer.
+
+1. What Is DarkIce?
+
+DarkIce is a live audio streamer. It records audio from an audio interface (e.g. sound card), encodes it and sends it to a streaming server.
+
+DarkIce can record from:
+
+	• OSS audio devices
+	• ALSA audio devices
+	• Solaris audio interface
+	• Jack sources
+	• uLaw audio input through a serial interface
+	• CoreAudio (branch darkice-macosx)
+	• PulseAudio sources
+DarkIce can encode in the following formats:
+
+	• mp3 - using the lame library
+	• mp2 - using the twolame library
+	• Ogg/Vorbis
+	• AAC - using the faac library
+	• AAC HEv2 - using libaacplus library
+	• Ogg/Opus
+DarkIce can send the encoded stream to the following streaming servers:
+
+	• ShoutCast
+	• IceCast 1.3.x and 2.x
+	• Darwin Streaming Server
+	• archive the encoded audio in files
+
+
+
+auszug aus meiner test config
+[icecast2-0]
+bitrateMode   = cbr              # variable bit rate
+bitrate       = 128
+format        = mp3              # format of the stream: mp3
+#quality       = 0.6              # quality of the stream sent to the server
+server        = 77.87.48.29      # host name of the server
+port          = 8000             # port of the IceCast2 server, usually 8000
+password      = weimarnetz       # source password to the IceCast2 server
+mountPoint    = live             # mount point of this stream on the IceCast2 server
+name          = live             # name of the stream
+description   = DarkIce on princess # description of the stream
+url           = http://77.87.48.29  # URL related to the stream
+genre         = my genre         # genre of the stream
+public        = no               # advertise this stream?
+localDumpFile = /Users/ed/Downloads/recording.mp3    # Record also to a file
+
+
+als adresse zum hoeren kannst du radio.kr217.de[/live.mp3] verwenden. du kannst mal testen ob du dir auch selber nen mount-point waehlen kannst (zB /178nts.mp3]... wenn nich kann ich euch das fix in die config eintragen.
