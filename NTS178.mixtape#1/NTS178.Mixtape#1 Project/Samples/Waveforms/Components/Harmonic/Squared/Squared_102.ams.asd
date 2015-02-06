@@ -1,0 +1,1 @@
+../../../../../../../.git/annex/objects/G1/VQ/SHA256E-s2993--4cb5017950b36e53f1999d2280b8378c78dac36086bd83b97446edc4dcae90b7.ams.asd/SHA256E-s2993--4cb5017950b36e53f1999d2280b8378c78dac36086bd83b97446edc4dcae90b7.ams.asd

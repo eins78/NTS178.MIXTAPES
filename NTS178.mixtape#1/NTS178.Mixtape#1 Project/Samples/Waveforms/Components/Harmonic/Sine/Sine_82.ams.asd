@@ -1,0 +1,1 @@
+../../../../../../../.git/annex/objects/kx/39/SHA256E-s2987--5b05662c26cabb71b8960dbb2e22a3055195710467aed44544bd8cddfc05e84c.ams.asd/SHA256E-s2987--5b05662c26cabb71b8960dbb2e22a3055195710467aed44544bd8cddfc05e84c.ams.asd

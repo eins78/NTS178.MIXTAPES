@@ -1,0 +1,1 @@
+../../../../../../../.git/annex/objects/5M/v1/SHA256E-s2999--715edcd110bd25c627bffec807726b874a31ff39fd7b6de12c0cdc5bf94c3e4a.ams.asd/SHA256E-s2999--715edcd110bd25c627bffec807726b874a31ff39fd7b6de12c0cdc5bf94c3e4a.ams.asd

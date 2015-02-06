@@ -1,0 +1,1 @@
+../../../../../../../.git/annex/objects/1K/2G/SHA256E-s2997--7368304c3f3e5724a6efbd5289a2c172d2b5785cf926596f9d92fabde5a2b643.ams.asd/SHA256E-s2997--7368304c3f3e5724a6efbd5289a2c172d2b5785cf926596f9d92fabde5a2b643.ams.asd
