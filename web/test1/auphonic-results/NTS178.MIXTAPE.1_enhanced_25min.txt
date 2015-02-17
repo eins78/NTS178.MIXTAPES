@@ -1,0 +1,25 @@
+
+NTS178.MIXTAPE.1_enhanced_25min.m4a
+
+Input File
+- lra: 7.64 LU
+- noise_level: -23.87 dB
+- max_momentary: -7.34 LUFS
+- signal_level: -11.33 dB
+- snr: 12.54 dB
+- max_shortterm: -8.98 LUFS
+- loudness: -13.08 LUFS
+
+Output File
+- lra: 3.49 LU
+- max_shortterm: -13.25 LUFS
+- max_momentary: -11.92 LUFS
+- gain_min: -7.09 dB
+- peak: -2.12 dBTP
+- gain_mean: -4.25 dB
+- loudness: -18.00 LUFS
+- gain_max: 0.65 dB
+
+Music Speech Segments
+- 00:00:00.000->00:25:02.191: Music
+

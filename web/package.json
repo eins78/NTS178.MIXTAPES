@@ -1,0 +1,14 @@
+{
+  "name": "nts178-mixtapes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "podlovewebplayer": "https://github.com/podlove/podlove-web-player/tarball/release"
+  }
+}
