@@ -16,3 +16,17 @@
         - [time] - [cover] - [Artist – Track] - [URL Title] - [URL (where to buy/get info]
     - make release version(s) from podcasts with auphonic
 
+music_styles:
+- brazlian?
+- electro pop
+- techno
+- minimal
+- house
+- dubstep
+- latin folklore
+- arab folklore
+- israeli pop
+
+friends
+- nikos
+- dirty25
