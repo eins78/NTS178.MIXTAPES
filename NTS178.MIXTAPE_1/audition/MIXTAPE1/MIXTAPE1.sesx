@@ -5,7 +5,7 @@
   <session appVersion="6.0" audioChannelType="stereo" bitDepth="32" duration="830785190" sampleRate="44100">
     <name>MIXTAPE1.sesx</name>
     <tracks>
-      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
         <trackParameters trackHeight="202" trackHue="-1.00">
           <name>Track 1</name>
         </trackParameters>
@@ -72,7 +72,7 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="755259264" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="NTS178.mixtape.256kb" offline="false" select="true" sourceInPoint="0" sourceOutPoint="755259264" startPoint="0" zOrder="296">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="755259264" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="NTS178.mixtape.256kb" offline="false" select="true" sourceInPoint="0" sourceOutPoint="755259264" startPoint="0" zOrder="306">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1">
               <parameterKeyframes enableSplines="false">
@@ -98,7 +98,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <masterTrack automationLaneOpenState="false" id="10000" index="2" select="true" visible="true">
+      <masterTrack automationLaneOpenState="false" id="10000" index="2" select="false" visible="true">
         <trackParameters trackHeight="38" trackHue="-1.00">
           <name>Master</name>
         </trackParameters>
@@ -167,9 +167,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="51939255" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="51939255"/>
-      <viewState horizontalViewDuration="52372207" horizontalViewStart="6325276" trackControlsWidth="224" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="219177000" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="219177000"/>
+      <viewState horizontalViewDuration="5345398" horizontalViewStart="214898542" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -185,9 +185,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC (Macintosh)</xmp:CreatorTool>
          <xmp:CreateDate>2015-02-21T20:07:43+01:00</xmp:CreateDate>
-         <xmp:MetadataDate>2015-02-22T20:06:20+01:00</xmp:MetadataDate>
+         <xmp:MetadataDate>2015-02-22T20:18:07+01:00</xmp:MetadataDate>
          <xmp:ModifyDate>2015-02-22T20:00:51+01:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:ead364d6-2c21-4478-a803-0f6220da0a00</xmpMM:InstanceID>
+         <xmpMM:InstanceID>xmp.iid:172ddc9c-ea29-48b8-90ee-85edc0ab5376</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:2d9da2ea-13e2-4750-ba90-35d2ce9ff97f</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:4b9fd87b-05d1-4083-b6e6-53220284d7c1</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -796,8 +796,8 @@
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:ead364d6-2c21-4478-a803-0f6220da0a00</stEvt:instanceID>
-                  <stEvt:when>2015-02-22T20:06:20+01:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:172ddc9c-ea29-48b8-90ee-85edc0ab5376</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T20:18:07+01:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
