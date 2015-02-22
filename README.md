@@ -3,7 +3,7 @@
 
 ## Steps
 
-- ugada
+- uganda
     - collect uganda playlists
     - combine playlists
     - play live radio show === make final playlist
@@ -15,6 +15,14 @@
     - put in GaraBands's "Podcast Track"
         - [time] - [cover] - [Artist – Track] - [URL Title] - [URL (where to buy/get info]
     - make release version(s) from podcasts with auphonic
+
+
+# About
+
+hiphop, electro, breakbeat, dubstep, techno, experimental and world music.
+classics, undressed stuff, remixes and mashups.
+tracks from friends and obscure finds from the internet.
+
 
 music_styles:
 - brazlian?
