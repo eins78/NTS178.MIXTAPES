@@ -1,10 +1,28 @@
-fs = require('fs')
-async = require('async')
-xml2js = require('xml2js')
+#!/usr/bin/env coffee
+
+###
+
+usage and example:
+$ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIXTAPE1/MIXTAPE1.sesx
+[
+  {
+    "title": "enlighted crackle box #5",
+    "artist": "Obsolet",
+    "time": "0",
+    "url": "https://soundcloud.com/abe-monk"
+  },
+  …
+]
+###
 
 config =
   inputFile: process.argv[2]  # get input file path from first argument
-  artist_title_seperator: '÷' # track 'name' is of format '$artist $seperator $title'
+  artist_title_separator: '÷' # track 'name' is of format '$artist $seperator $title'
+
+# dependencies
+fs = require('fs')
+async = require('async')
+xml2js = require('xml2js')
 
 parseXML = (XMLString, callback)->
   callback(new Error('parseXML missing input string!')) unless XMLString?.toString?
@@ -23,7 +41,7 @@ extractTracklistfromRDF = (hash, callback)->
 
 parseTrackListFromRDF = (list, callback)->
   tracklist = for item in list
-    artist_title = item?['xmpDM:name']?[0]?.split(artist_title_seperator)
+    artist_title = item?['xmpDM:name']?[0]?.split(config.artist_title_separator)
     {
       title: artist_title[1]?.trim()
       artist: artist_title[0]?.trim()
