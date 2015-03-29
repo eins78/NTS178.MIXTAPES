@@ -20,7 +20,7 @@
 # About
 
 hiphop, electro, breakbeat, dubstep, techno, experimental and world music.
-classics, undressed stuff, remixes and mashups.
+classics, unreleased stuff, remixes and mashups.
 tracks from friends and obscure finds from the internet.
 
 
