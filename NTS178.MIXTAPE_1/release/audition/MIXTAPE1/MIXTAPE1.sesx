@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.0">
+
+  <session appVersion="6.0" audioChannelType="stereo" bitDepth="32" duration="830785190" sampleRate="44100">
+    <name>MIXTAPE1.sesx</name>
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+        <trackParameters trackHeight="202" trackHue="-1.00">
+          <name>Track 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="0" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Balance" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Tiefenanhebungsfrequenz" parameterValue="0.0009079"/>
+            <parameter index="1" name="Tiefenanhebungsverstärkung" parameterValue="0.5"/>
+            <parameter index="2" name="Höhenanhebungsfrequenz" parameterValue="0.8161598"/>
+            <parameter index="3" name="Höhenanhebungsverstärkung" parameterValue="0.5"/>
+            <parameter index="4" name="EQ-Band 1 - Center-Frequenz" parameterValue="0.0013618"/>
+            <parameter index="5" name="EQ-Band 1 - Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ-Band 1 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="7" name="EQ-Band 1 aktivieren" parameterValue="1"/>
+            <parameter index="8" name="EQ-Band 2 - Center-Frequenz" parameterValue="0.0081707"/>
+            <parameter index="9" name="EQ-Band 2 - Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ-Band 2 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="11" name="EQ-Band 2 aktivieren" parameterValue="1"/>
+            <parameter index="12" name="EQ-Band 3 - Center-Frequenz" parameterValue="0.0354063"/>
+            <parameter index="13" name="EQ-Band 3 - Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ-Band 3 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="15" name="EQ-Band 3 aktivieren" parameterValue="1"/>
+            <parameter index="16" name="EQ-Band 4 - Center-Frequenz" parameterValue="0.1443486"/>
+            <parameter index="17" name="EQ-Band 4 - Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ-Band 4 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="19" name="EQ-Band 4 aktivieren" parameterValue="1"/>
+            <parameter index="20" name="EQ-Band 5 - Center-Frequenz" parameterValue="0.580118"/>
+            <parameter index="21" name="EQ-Band 5 - Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ-Band 5 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="23" name="EQ-Band 5 aktivieren" parameterValue="1"/>
+            <parameter index="24" name="Master-Verstärkung" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Filterreihenfolge Tiefenanhebung" parameterValue="0"/>
+            <parameter index="27" name="Filterreihenfolge Höhenanhebung" parameterValue="0"/>
+            <parameter index="28" name="Ultraleiser Modus" parameterValue="0"/>
+            <parameter index="29" name="Low-Shelf-aktiviert" parameterValue="1"/>
+            <parameter index="30" name="High-Shelf-aktiviert" parameterValue="1"/>
+            <parameter index="31" name="Ursprüngliche Abtastrate" parameterValue="0.2296875"/>
+            <parameter index="32" name="EQ-Band 1 - Bandbreite" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ-Band 2 - Bandbreite" parameterValue="0.01"/>
+            <parameter index="34" name="EQ-Band 3 - Bandbreite" parameterValue="0.04"/>
+            <parameter index="35" name="EQ-Band 4 - Bandbreite" parameterValue="0.16"/>
+            <parameter index="36" name="EQ-Band 5 - Bandbreite" parameterValue="0.64"/>
+            <parameter index="37" name="Hochpassfilter aktivieren" parameterValue="0"/>
+            <parameter index="38" name="Hochpassfilterfrequenz" parameterValue="0"/>
+            <parameter index="39" name="Hochpasskurve" parameterValue="4"/>
+            <parameter index="40" name="Tiefpassfilter aktivieren" parameterValue="0"/>
+            <parameter index="41" name="Tiefpassfilterfrequenz" parameterValue="0.906945"/>
+            <parameter index="42" name="Tiefpasskurve" parameterValue="4"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="Niedriger Diagrammbereich" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="755259264" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="NTS178.mixtape.256kb" offline="false" select="true" sourceInPoint="0" sourceOutPoint="755259264" startPoint="0" zOrder="306">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="53981317" select="false" type="linear" value="0.65"/>
+              </parameterKeyframes>
+            </parameter>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Balance" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="755259264" shape="0" startPoint="755259264" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="2" select="false" visible="true">
+        <trackParameters trackHeight="38" trackHue="-1.00">
+          <name>Master</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Balance" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Tiefenanhebungsfrequenz" parameterValue="0.0009079"/>
+            <parameter index="1" name="Tiefenanhebungsverstärkung" parameterValue="0.5"/>
+            <parameter index="2" name="Höhenanhebungsfrequenz" parameterValue="0.8161598"/>
+            <parameter index="3" name="Höhenanhebungsverstärkung" parameterValue="0.5"/>
+            <parameter index="4" name="EQ-Band 1 - Center-Frequenz" parameterValue="0.0013618"/>
+            <parameter index="5" name="EQ-Band 1 - Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ-Band 1 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="7" name="EQ-Band 1 aktivieren" parameterValue="1"/>
+            <parameter index="8" name="EQ-Band 2 - Center-Frequenz" parameterValue="0.0081707"/>
+            <parameter index="9" name="EQ-Band 2 - Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ-Band 2 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="11" name="EQ-Band 2 aktivieren" parameterValue="1"/>
+            <parameter index="12" name="EQ-Band 3 - Center-Frequenz" parameterValue="0.0354063"/>
+            <parameter index="13" name="EQ-Band 3 - Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ-Band 3 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="15" name="EQ-Band 3 aktivieren" parameterValue="1"/>
+            <parameter index="16" name="EQ-Band 4 - Center-Frequenz" parameterValue="0.1443486"/>
+            <parameter index="17" name="EQ-Band 4 - Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ-Band 4 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="19" name="EQ-Band 4 aktivieren" parameterValue="1"/>
+            <parameter index="20" name="EQ-Band 5 - Center-Frequenz" parameterValue="0.580118"/>
+            <parameter index="21" name="EQ-Band 5 - Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ-Band 5 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="23" name="EQ-Band 5 aktivieren" parameterValue="1"/>
+            <parameter index="24" name="Master-Verstärkung" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Filterreihenfolge Tiefenanhebung" parameterValue="0"/>
+            <parameter index="27" name="Filterreihenfolge Höhenanhebung" parameterValue="0"/>
+            <parameter index="28" name="Ultraleiser Modus" parameterValue="0"/>
+            <parameter index="29" name="Low-Shelf-aktiviert" parameterValue="1"/>
+            <parameter index="30" name="High-Shelf-aktiviert" parameterValue="1"/>
+            <parameter index="31" name="Ursprüngliche Abtastrate" parameterValue="0.2296875"/>
+            <parameter index="32" name="EQ-Band 1 - Bandbreite" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ-Band 2 - Bandbreite" parameterValue="0.01"/>
+            <parameter index="34" name="EQ-Band 3 - Bandbreite" parameterValue="0.04"/>
+            <parameter index="35" name="EQ-Band 4 - Bandbreite" parameterValue="0.16"/>
+            <parameter index="36" name="EQ-Band 5 - Bandbreite" parameterValue="0.64"/>
+            <parameter index="37" name="Hochpassfilter aktivieren" parameterValue="0"/>
+            <parameter index="38" name="Hochpassfilterfrequenz" parameterValue="0"/>
+            <parameter index="39" name="Hochpasskurve" parameterValue="4"/>
+            <parameter index="40" name="Tiefpassfilter aktivieren" parameterValue="0"/>
+            <parameter index="41" name="Tiefpassfilterfrequenz" parameterValue="0.906945"/>
+            <parameter index="42" name="Tiefpasskurve" parameterValue="4"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="Niedriger Diagrammbereich" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="219177000" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="219177000"/>
+      <viewState horizontalViewDuration="5345398" horizontalViewStart="214898542" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.5-c014 79.151805, 2013/04/09-12:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition CC (Macintosh)</xmp:CreatorTool>
+         <xmp:CreateDate>2015-02-21T20:07:43+01:00</xmp:CreateDate>
+         <xmp:MetadataDate>2015-02-22T20:18:07+01:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2015-02-22T20:00:51+01:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:172ddc9c-ea29-48b8-90ee-85edc0ab5376</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:2d9da2ea-13e2-4750-ba90-35d2ce9ff97f</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:4b9fd87b-05d1-4083-b6e6-53220284d7c1</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4b9fd87b-05d1-4083-b6e6-53220284d7c1</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:07:43+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fca8a6c9-777a-4cd3-8bdc-77aaa8ce42ba</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:07:43+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5d30eac7-3e7a-42ca-a278-a7a659857773</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:07:43+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5eb560b4-4248-4fff-b00d-d5b4bf29e837</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:08:42+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f2dd59e8-ca10-4530-9aa3-668549863bea</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:08:42+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3a5eb996-d8cc-4ece-b2cc-5a3cd6cb332a</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:08:53+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a26646e7-ee44-4e15-b71c-cb0fc8c84ddd</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:08:53+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9f77badb-2b9e-420e-aceb-85a6305523e0</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:18:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:06b1b795-13f1-481b-bbb0-667673f582b1</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:18:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ce149fac-3060-488d-9d74-c71deb44ee33</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:18:32+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9e934b5e-b4cc-4c59-a5ee-47b540c37f18</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:18:32+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:038d4629-66e1-4e27-bd8a-593bb36dad3b</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:20:01+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8496140d-aa73-49bb-980d-ef0afbbec70b</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:20:01+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4b40e166-570b-4b93-a6a2-70726130499a</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:28:38+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:35448018-d252-4154-9128-d08d2475d52d</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:28:38+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:085c1dbf-67c5-4cc2-90fb-8aadb8da6868</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:44:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4d1550c4-fd65-40a7-8a71-cb845c42f4ba</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:44:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6f248384-475a-480c-bc52-ecafdcec11ea</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:54:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fa6410c5-73ca-485d-9bd5-5e1c60b0c8f5</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T20:54:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:442e1287-db10-466c-91ea-7196e5bc3f68</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:10:38+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ada313b7-9399-49ce-bf89-49fd79d9750e</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:10:38+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:05809ccb-874c-4428-98a6-5df78aef6576</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:21:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d4b9d7e5-e6df-4113-af48-df467ffd1444</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:21:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c8fa67de-08a3-4012-a717-9224092ea8dd</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:32:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0a259055-cbfd-4d30-be3f-ab26909b7584</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:32:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e97df3b4-8a32-4eba-87d5-ec091a75c140</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:42:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0c11b693-8b85-4e98-83f3-1ff6057f6060</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:42:09+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:30e5d184-fcfb-480c-ae72-9de55d9100fc</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:45:39+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:49c4be5b-57f8-4c13-a1e1-1dc90b39361a</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:45:39+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:69376a14-5d67-45c5-b8dc-48952d16d89a</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:53:33+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:10e600d4-8182-419c-9e32-4ed47d5cda7b</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:53:33+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0dfad735-0993-48bf-96cb-15734962e88d</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:56:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:58668081-5010-4126-b7ff-ca01b39cca66</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T21:56:08+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:99dcdee6-b58e-4c35-87e0-bc161f83059d</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:06:10+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d2f41028-93e5-4148-ae4f-65075377ad6b</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:06:10+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7b19f58c-93dc-4687-8b9d-66fbde4b36dd</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:16:40+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5842284c-5c05-4440-8dc7-c3f97f561109</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:16:40+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a7c322de-411c-44b0-abba-4396824ba9d4</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:26:41+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:23bde8cb-3c66-48a0-a2d6-cf23cf73ad83</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:26:41+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:19afb18f-848a-4b6b-907b-3ce37b584fe7</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:37:11+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b5dc666b-9cb0-495a-b4c7-98d8a6c0350f</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:37:11+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8097d909-af01-4e1f-93e3-7916d93fed93</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:42:56+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:860cda1e-43cb-407d-9cdd-eb26bab0f057</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:42:56+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:185ecd19-9386-4989-877d-2240f7743758</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:43:07+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d644856e-d43b-441e-8d73-2d77d569b256</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:43:07+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f5579d4c-4647-43a8-b6a0-0a3f2a91da88</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:52:05+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0bf0850e-8f9a-452a-9b3a-a22626221532</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:52:05+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:79d45869-75db-4718-9c02-053e4fbdc245</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:53:48+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:129ccec9-cbd5-4881-9047-2db5f55a683f</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:53:48+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8dd83fe1-61c8-45c3-b683-24df1b7d8496</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:53:52+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f8f53e9f-898a-4821-811d-4191d52b0ba0</stEvt:instanceID>
+                  <stEvt:when>2015-02-21T22:53:52+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:45a19289-c446-4082-8bb0-a22d07d5f6d4</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:28:39+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f3a01e51-7370-413e-a3e8-24e9e58c087c</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:28:39+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e5e5e08d-55db-4ffb-b1de-9b5d8afe926e</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:32:04+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2b13f90e-eb87-4d43-b90a-4ce6f3d79466</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:32:04+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:bccde351-4ca3-4b17-95f2-4be21c78b5db</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:42:33+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ed3e7463-60d6-4eec-9c98-d64f1bf50312</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:42:33+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d381a212-aa95-4ba0-8642-d332f8bba08d</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:46:46+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f1f2af22-46af-4ca5-9834-88c6cd22676a</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:46:46+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6581a313-26e0-4543-b879-8bacd052a55b</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:59:51+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d9a800de-fd5c-43b2-a496-234762ef1faf</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T17:59:51+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:881dcb38-b214-402f-a29a-bae1da98acda</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:10:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9f2ce383-6204-4b48-ad78-10267340b3d2</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:10:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:158e6a27-570a-4619-b33b-9ebe090472cf</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:20:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cf0af05d-365d-4009-bbde-2749f5de68cc</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:20:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:da0ee582-2955-4ae6-abe9-d11855fdd7b1</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:30:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5151707e-9e3f-42d9-9b73-d11eba320772</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:30:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:714cd1b7-d53f-4b94-98aa-0539452efb18</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:40:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d85d3ae1-add0-4957-adca-6442fb7199ff</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:40:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7a55c59c-997b-42e6-b3ae-838fcf6fd441</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:50:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:89ec9e40-b030-489c-871a-717c4a0267c0</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T18:50:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4c00e08a-2788-427a-8dc8-e9444b34b19e</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:00:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:96d0c1c5-aaa2-4353-9ef6-73b7fc5fe400</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:00:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b7dd265f-f535-432d-adf5-612e733a4d91</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:10:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:79cec74f-9275-4bdd-915d-f1eb5151a1f1</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:10:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a6aca59f-91aa-420a-ba26-a5d8b3c329e3</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:20:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:69a053aa-a749-40d8-a2aa-6c6e1c07bcf3</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:20:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:14870dcd-38fa-4160-b176-11499a833829</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:30:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:de2d66a4-f8cb-4c7a-aa08-ce0d33287e52</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:30:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3dac9330-5000-49c2-9f08-651444e0331a</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:40:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:99e9c7ed-a96e-48ba-9f6a-1da61fc48075</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:40:21+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:119b4c34-e4cd-4cdf-b08b-04e6bbd8c47a</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:50:51+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4b039644-0466-4d99-ac64-40aa608eca20</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T19:50:51+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0271275e-0fd8-4f10-9f26-4698d8044660</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T20:00:51+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2d9da2ea-13e2-4750-ba90-35d2ce9ff97f</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T20:00:51+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:51e93f91-f79f-4fdd-a80d-4f74b85892a3</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T20:06:20+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:172ddc9c-ea29-48b8-90ee-85edc0ab5376</stEvt:instanceID>
+                  <stEvt:when>2015-02-22T20:18:07+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:0271275e-0fd8-4f10-9f26-4698d8044660</stRef:instanceID>
+            <stRef:documentID>xmp.did:4b039644-0466-4d99-ac64-40aa608eca20</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:4b9fd87b-05d1-4083-b6e6-53220284d7c1</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+                  <xmpDM:markers>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>0</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/abe-monk</xmpDM:comment>
+                           <xmpDM:name>Obsolet ÷ enlighted crackle box #5</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>21402815</xmpDM:startTime>
+                           <xmpDM:comment>http://ninjatune.net/release/roots-manuva/dub-come-save-me</xmpDM:comment>
+                           <xmpDM:name>Roots Manuva ÷ Revolution</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>32511380</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/hasir/id962781108?i=962781297&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Modeselektor ÷ Hasir</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>41792218</xmpDM:startTime>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=O_IQW9bwR3U</xmpDM:comment>
+                           <xmpDM:name>Deichkind ÷ La Playa</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>51939255</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/i.a.m./id380933231?i=380933474&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Pentatones ÷ I.A.M.</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>67745671</xmpDM:startTime>
+                           <xmpDM:comment>https://myspace.com/iamtheanimator/music/song/street-monk-93656083-104194157</xmpDM:comment>
+                           <xmpDM:name>Animator ÷ Street Monk</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>83876350</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/eins78/trust-me-pull-me-remix</xmpDM:comment>
+                           <xmpDM:name>EINS78 ÷ pull-me-trust-me-rmx feat. Mike Skinner</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>95045413</xmpDM:startTime>
+                           <xmpDM:comment>https://www.bpitchcontrol.de/market/browse/1570</xmpDM:comment>
+                           <xmpDM:name>Sascha Funke ÷ Mango</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>109248224</xmpDM:startTime>
+                           <xmpDM:name>Avant-Hart ÷ Takashi</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>119029755</xmpDM:startTime>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=gBIvT44_Vz8</xmpDM:comment>
+                           <xmpDM:name>Marbert Rocel ÷ Ba Ba Bounce</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>128623394</xmpDM:startTime>
+                           <xmpDM:comment>http://www.ratatatmusic.com</xmpDM:comment>
+                           <xmpDM:name>Ratatat ÷ Mumtaz Khan</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>135684373</xmpDM:startTime>
+                           <xmpDM:comment>http://ninjatune.net/release/roots-manuva/run-come-save-me</xmpDM:comment>
+                           <xmpDM:name>Roots Manuva ÷ Witness (1 Hope)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>144724119</xmpDM:startTime>
+                           <xmpDM:comment>http://genius.com/Dynamite-deluxe-lots-of-signs-lyrics</xmpDM:comment>
+                           <xmpDM:name>Dynamite Deluxe ÷ Lots of Signs feat. Patrice</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>154124770</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/les-djinns-trentemoller-remix/id251324119?i=251328594&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Djuma Soundsystem ÷ Les Djinns (Trentemøller Remix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>164689474</xmpDM:startTime>
+                           <xmpDM:comment>http://genius.com/Blumentopf-profis-lyrics</xmpDM:comment>
+                           <xmpDM:name>Blumentopf ÷ Profis</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>171944060</xmpDM:startTime>
+                           <xmpDM:comment>https://archive.org/details/tA_D_kpradio</xmpDM:comment>
+                           <xmpDM:name>Konsumprodukt ÷ Elektronda De Breque</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>182170553</xmpDM:startTime>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=htVa2stX_RA</xmpDM:comment>
+                           <xmpDM:name>Superpowerless ÷ Thriller</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>195519806</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/sprachfehler/id263703634?i=263704659&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Robosonic ÷ Sprachfehler</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>206714883</xmpDM:startTime>
+                           <xmpDM:name>EINS78 ÷ Moderat vs. Usher feat. Ludacris and Nate Dogg - Yeah New Error Codes (NTS178 Mashup)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>220527433</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/bikecore/next-summer-hit-i-want-to-shout-it-out-1</xmpDM:comment>
+                           <xmpDM:name>bikecore ÷ Next Summer Hit (I want to shout it out)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>228387225</xmpDM:startTime>
+                           <xmpDM:comment>http://genius.com/Blumentopf-mehr-lyrics</xmpDM:comment>
+                           <xmpDM:name>Blumentopf ÷ Mehr</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>237906934</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/563x9wQeL9k</xmpDM:comment>
+                           <xmpDM:name>Taboo Plus ÷ Heavy Dreams</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>242892625</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/ambition/id416309109?i=416309120&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>TTC ÷ Ambition</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>255727093</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/moan-trentem-ller-remix/id404695106?i=404695198&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Trentemøller ÷ Moan feat. Anne Trolle (Trentemøller Remix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>272608487</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/178/eins78-the-circuit</xmpDM:comment>
+                           <xmpDM:name>EINS78 ÷ the-circuit ("Magic Smoke" Remix feat. Richie Spice)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>294214569</xmpDM:startTime>
+                           <xmpDM:comment>https://www.bpitchcontrol.de/artists/ellen-allien/</xmpDM:comment>
+                           <xmpDM:name>Ellen Allien ÷ Stadtkind</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>306715831</xmpDM:startTime>
+                           <xmpDM:comment>http://candychang.com</xmpDM:comment>
+                           <xmpDM:name>Candy Chang ÷ Rodchenko in my Bauhaus (Human Dollz Mix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>336997510</xmpDM:startTime>
+                           <xmpDM:comment>http://humandollz.com/av_en.html</xmpDM:comment>
+                           <xmpDM:name>Human Dollz ÷ Line To Dot</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>349742439</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/tapped-feat.-jme/id880145365?i=880145532&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Skream ÷ Tapped</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>358552379</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/konichiwa-bitches-trentem/id256260275?i=256260426&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Robyn ÷ Konichiwa Bitches (Trentemøller Remix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>374120484</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/zucker-feat.-vanessa-mason/id291805242?i=291805256&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Peter Fox ÷ Zucker (feat. Vanessa Mason)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>381314768</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/une-bande-de-mec-sympa/id416309109?i=416309121&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>TTC ÷ Une Bande De Mecs Sympas feat. Modeselektor</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>392010088</xmpDM:startTime>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=OpYR7ilLbfo</xmpDM:comment>
+                           <xmpDM:name>Buraka Som Sistema ÷ Kalemba (Wegue-Wegue) feat. Pongolove</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>401191502</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/loin-de-moi/id796894655?i=796894750&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Rework ÷ Loin De Moi</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>417716799</xmpDM:startTime>
+                           <xmpDM:name>Kollektiv Turmstrasse ÷ Freiflug (NTS178 "Wild Wild West" Mashup feat. Will Smith, Dru Hill)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>435696322</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/apparat/arcadia</xmpDM:comment>
+                           <xmpDM:name>Apparat ÷ Arcadia</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>446522039</xmpDM:startTime>
+                           <xmpDM:comment>http://ninjatune.net/release/roots-manuva/dub-come-save-me</xmpDM:comment>
+                           <xmpDM:name>Roots Manuva ÷ Witness Dub</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>455222246</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/rNStVlJWy88</xmpDM:comment>
+                           <xmpDM:name>Benga ÷ Night</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>468817291</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/zjcqpp79nSo</xmpDM:comment>
+                           <xmpDM:name>Acid Pauli ÷ I see a darkness feat. Johnny Cash</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>483922172</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/kabale-und-liebe/id263703634?i=263705330&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Robosonic ÷ Kabale und Liebe</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>493884354</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/wBGs8JkVkFY</xmpDM:comment>
+                           <xmpDM:name>The Juan MacLean ÷ One Day</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>504226415</xmpDM:startTime>
+                           <xmpDM:comment>https://pro.beatport.com/track/the-maker-original-mix/782579</xmpDM:comment>
+                           <xmpDM:name>Omar-S ÷ The Maker</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>515542379</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/extrawelt-official/dark-side-of-my-room</xmpDM:comment>
+                           <xmpDM:name>Extrawelt ÷ Dark Side Of My Room</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>532648958</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/esplanade-97/id98849747?i=98849332&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Francisco ÷ Esplanade 97</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>545009850</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/liebe-ist.../id220045415?i=220045499&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Stephan Bodzin ÷ Liebe Ist ...</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>560750177</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/gothic-girl-menses-club-mix/id172133660?i=172133892&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>International Pony ÷ Gothic Girl (Mense's Club Mix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>571651823</xmpDM:startTime>
+                           <xmpDM:comment>http://www.kompakt.fm/releases/minimal_dj_koze_mix</xmpDM:comment>
+                           <xmpDM:name>Matias Aguayo ÷ Minimal (DJ Koze Remix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>585428202</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/solar-trip-feat.-katya-tyukova/id289369493?i=289373770&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Maxx Brannslokker ÷ Solar Trip (feat. Katya Tyokova)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>595071725</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/KhrteSZXFzM</xmpDM:comment>
+                           <xmpDM:name>Ratatat ÷ Drugs</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>604102174</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/sy1dYFGkPUE</xmpDM:comment>
+                           <xmpDM:name>Justice ÷ D.A.N.C.E.</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>612714051</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/Ci40ae8BlcE</xmpDM:comment>
+                           <xmpDM:name>Dizzee Rascal ÷ Bonkers feat. Armand Van Helden</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>620046000</xmpDM:startTime>
+                           <xmpDM:comment>http://youtu.be/S-l-c3rTlnE</xmpDM:comment>
+                           <xmpDM:name>Ben Folds ÷ Bitches Ain't Shit (Dr. Dre Cover)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>629710368</xmpDM:startTime>
+                           <xmpDM:comment>http://www.last.fm/music/Klaxons/_/It's+Not+Over+Yet+(Skream+Remix)</xmpDM:comment>
+                           <xmpDM:name>Klaxons ÷ It's Not Over Yet (Skream Remix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>638459486</xmpDM:startTime>
+                           <xmpDM:comment>https://myspace.com/deutscheband/music/song/alles-im-arsch-7281148-7082332</xmpDM:comment>
+                           <xmpDM:name>Deutsche Band ÷ Alles im Arsch</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>647073117</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/that-sound-wiped/id252874122?i=252874221&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Von Südenfed ÷ That Sound Wiped</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>663087600</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/freak-a-holic/id276070123?i=276070437&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>The Egyptian Lover ÷ Freak-A-Holic (12" Dub Mix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>678097612</xmpDM:startTime>
+                           <xmpDM:comment>http://www.pudel.com/produkte.php?pID=6</xmpDM:comment>
+                           <xmpDM:name>Viktor Marek &amp; Jacques Palminger ÷ Tüdeldub</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>688689937</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/eins78/hypnose-eins78-digital-is-besser-remix-preview</xmpDM:comment>
+                           <xmpDM:name>Spieltrieb ÷ Hypnose (EINS78 "Digital is Besser" Remix)</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>705585420</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/antenne-2/id416309109?i=416309116&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>TTC ÷ Antenne 2</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>717316048</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/perpetual-emotion-maschine/id674702774?i=674703153&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Sex In Dallas &amp; Biladoll ÷ Perpetual Emotion Mashine</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>724500734</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/twenty-eight-love-song/id274583123?i=274583249&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Robert Le Magnifique ÷ Twenty Eight Love Song</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>732220192</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/178/ratatat-vs-dre-eminem-bilar-about-dre</xmpDM:comment>
+                           <xmpDM:name>Ratatat ÷ Bilar (EINS78 "Dre &amp; M sitzen ums Lagerfeuer" Mashup feat. Dr. Dre, Eminem) https://soundcloud.com/178/ratatat-vs-dre-eminem-bilar-about-dre</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>741673270</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/too-much/id274067888?i=274067895&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Bonaparte ÷ Too Much</xmpDM:name>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpDM:startTime>749827890</xmpDM:startTime>
+                           <xmpDM:comment>https://itunes.apple.com/de/album/we-cant-be-stopped/id369886393?i=369886554&amp;l=en</xmpDM:comment>
+                           <xmpDM:name>Ratatat ÷ We Can't Be Stopped</xmpDM:name>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpDM:markers>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1.00">
+          <name>Metronom</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.5011872"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Balance" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="Tiefenanhebungsfrequenz" parameterValue="0.0009079"/>
+            <parameter index="1" name="Tiefenanhebungsverstärkung" parameterValue="0.5"/>
+            <parameter index="2" name="Höhenanhebungsfrequenz" parameterValue="0.8161598"/>
+            <parameter index="3" name="Höhenanhebungsverstärkung" parameterValue="0.5"/>
+            <parameter index="4" name="EQ-Band 1 - Center-Frequenz" parameterValue="0.0013618"/>
+            <parameter index="5" name="EQ-Band 1 - Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ-Band 1 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="7" name="EQ-Band 1 aktivieren" parameterValue="1"/>
+            <parameter index="8" name="EQ-Band 2 - Center-Frequenz" parameterValue="0.0081707"/>
+            <parameter index="9" name="EQ-Band 2 - Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ-Band 2 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="11" name="EQ-Band 2 aktivieren" parameterValue="1"/>
+            <parameter index="12" name="EQ-Band 3 - Center-Frequenz" parameterValue="0.0354063"/>
+            <parameter index="13" name="EQ-Band 3 - Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ-Band 3 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="15" name="EQ-Band 3 aktivieren" parameterValue="1"/>
+            <parameter index="16" name="EQ-Band 4 - Center-Frequenz" parameterValue="0.1443486"/>
+            <parameter index="17" name="EQ-Band 4 - Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ-Band 4 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="19" name="EQ-Band 4 aktivieren" parameterValue="1"/>
+            <parameter index="20" name="EQ-Band 5 - Center-Frequenz" parameterValue="0.580118"/>
+            <parameter index="21" name="EQ-Band 5 - Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ-Band 5 - Verstärkung" parameterValue="0.5"/>
+            <parameter index="23" name="EQ-Band 5 aktivieren" parameterValue="1"/>
+            <parameter index="24" name="Master-Verstärkung" parameterValue="0.6666667"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Filterreihenfolge Tiefenanhebung" parameterValue="0"/>
+            <parameter index="27" name="Filterreihenfolge Höhenanhebung" parameterValue="0"/>
+            <parameter index="28" name="Ultraleiser Modus" parameterValue="0"/>
+            <parameter index="29" name="Low-Shelf-aktiviert" parameterValue="1"/>
+            <parameter index="30" name="High-Shelf-aktiviert" parameterValue="1"/>
+            <parameter index="31" name="Ursprüngliche Abtastrate" parameterValue="0.2296875"/>
+            <parameter index="32" name="EQ-Band 1 - Bandbreite" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ-Band 2 - Bandbreite" parameterValue="0.01"/>
+            <parameter index="34" name="EQ-Band 3 - Bandbreite" parameterValue="0.04"/>
+            <parameter index="35" name="EQ-Band 4 - Bandbreite" parameterValue="0.16"/>
+            <parameter index="36" name="EQ-Band 5 - Bandbreite" parameterValue="0.64"/>
+            <parameter index="37" name="Hochpassfilter aktivieren" parameterValue="0"/>
+            <parameter index="38" name="Hochpassfilterfrequenz" parameterValue="0"/>
+            <parameter index="39" name="Hochpasskurve" parameterValue="4"/>
+            <parameter index="40" name="Tiefpassfilter aktivieren" parameterValue="0"/>
+            <parameter index="41" name="Tiefpassfilterfrequenz" parameterValue="0.906945"/>
+            <parameter index="42" name="Tiefpasskurve" parameterValue="4"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="Niedriger Diagrammbereich" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component id="sendComponent" powered="false">
+              <parameter index="0" name="An/Aus" parameterValue="0"/>
+              <parameter index="1" name="Stufe" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+      </metronomeTrack>
+    </metronome>
+  </session>
+
+  <files>
+    <file absolutePath="/Users/mfa/MFA/Desktop/NTS178.MIXTAPES/NTS178.MIXTAPE_1/release/NTS178.mixtape.256kb.mp3" id="0" mediaHandler="AmioMP3" relativePath="../../release/NTS178.mixtape.256kb.mp3"/>
+  </files>
+
+  <audioDevice inputID="AppleHDAEngineInput:1B,0,1,0:1" outputID="AppleHDAEngineOutput:1B,0,1,1:0">
+    <inputPort id="1" name="Standard-Stereoeingang"/>
+    <inputPort id="2" name="[01M] Built-in Microphone "/>
+    <inputPort id="3" name="[02M] Built-in Microphone "/>
+    <inputPort id="4" name="[01S] Built-in Microphone "/>
+    <outputPort id="1" name="Standardausgang"/>
+    <outputPort id="2" name="[01M] Built-in Output "/>
+    <outputPort id="3" name="[02M] Built-in Output "/>
+    <outputPort id="4" name="Standard-Stereoausgang"/>
+    <outputPort id="5" name="[01S] Built-in Output "/>
+    <outputPort id="6" name="Standard-Surroundausgabe"/>
+  </audioDevice>
+
+</sesx>
