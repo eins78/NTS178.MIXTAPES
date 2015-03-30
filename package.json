@@ -1,1 +1,26 @@
-.git/annex/objects/24/QM/SHA256E-s635--12fd1a23fb19944f9fc94de27cbb4176e129a50a96c83dd1bb7f9eebe4692900.json/SHA256E-s635--12fd1a23fb19944f9fc94de27cbb4176e129a50a96c83dd1bb7f9eebe4692900.json
+{
+  "name": "NTS178.MIXTAPES",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh test/scripts.sh",
+    "build": "cd scripts && for coffee in *.coffee; do SRC=$(basename $coffee '.coffee') && coffee -c \"${SRC}.coffee\" && browserify \"${SRC}.js\" -o \"${SRC}.bundle.js\"; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "get-stdin": "^4.0.1",
+    "hogan": "^1.0.2",
+    "hogan.js": "^3.0.2",
+    "hulk": "0.0.2",
+    "js-yaml": "^3.2.7",
+    "podlovewebplayer": "https://github.com/podlove/podlove-web-player/tarball/release",
+    "xml2js": "^0.4.6"
+  }
+}
