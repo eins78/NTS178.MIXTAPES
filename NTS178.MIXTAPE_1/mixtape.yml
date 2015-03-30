@@ -6,7 +6,7 @@ mixtape:
     live: 2010-08-08
     mix: 2011-04-11
 
-  tracks: ~ # imported from Adobe Audtion session file.
+  tracks: ~ # imported from Adobe Audition session file.
 
   tracks_example:
     - 
