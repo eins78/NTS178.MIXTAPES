@@ -1,0 +1,23 @@
+---
+mixtape:
+  title: "{{{title}}}"
+  {{#description}}
+  description: |
+    {{{description}}}
+  {{/description}}
+
+  {{#dates}}
+  dates:
+    live: {{live}}
+    mix: {{mix}}
+    {{#re}}re: {{re}}{{/re}}
+  {{/dates}}
+
+  tracks: {{^tracks}}~{{/tracks}}
+  {{#tracks}}
+    - 
+      title: "{{{title}}}"
+      artist: "{{{artist}}}"
+      time: "{{{time}}}"
+      url: "{{{url}}}"
+  {{/tracks}}
