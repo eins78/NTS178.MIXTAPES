@@ -65,5 +65,5 @@ do main = ->
   workflow(config.inputFile,
     (err, res)->
       throw err if (err) 
-      console.log(JSON.stringify(res, 0, 2))
+      console.log(JSON.stringify({ tracks: res }, 0, 2))
   )

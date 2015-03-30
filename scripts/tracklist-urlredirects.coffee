@@ -38,6 +38,12 @@ do main = ->
       console.error('Could not parse input as JSON. The error was: ' + JSONerror)
       process.exit(1)
     
+    # take array directly of as 'tracks' prop of object
+    data = if Array.isArray(data)
+        data
+      else if Array.isArray(data?.tracks)
+       data.tracks
+
     return unless Array.isArray(data)
 
     res = data.map((item, index)->
