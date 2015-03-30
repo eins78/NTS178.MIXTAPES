@@ -13,6 +13,7 @@ $ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIX
   },
   …
 ]
+
 ###
 
 config =
