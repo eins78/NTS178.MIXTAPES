@@ -1,2 +1,4 @@
 node_modules/
 _bak
+scripts/**/*.js
+#scripts/!**/*.bundle.js
