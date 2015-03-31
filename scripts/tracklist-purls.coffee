@@ -5,7 +5,7 @@
 simple shortlinks.
 builds numbered (apache) redirect directives
 from an (JSON) array of objects with an 'url' property.
-redirects from baseUrl + subpath + (number in list) 
+redirects from baseUrl + subpath + (number in list)
 to either the item's url, or baseUrl if it has none.
 
 first argument is input file (give a path or '-' for stdin),
@@ -37,7 +37,7 @@ do main = ->
     catch JSONerror
       console.error('Could not parse input as JSON. The error was: ' + JSONerror)
       process.exit(1)
-    
+
     # take array directly of as 'tracks' prop of object
     data = if Array.isArray(data)
         data
@@ -55,3 +55,4 @@ do main = ->
 
     console.log res
 
+    
