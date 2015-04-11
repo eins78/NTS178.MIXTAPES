@@ -17,6 +17,7 @@
 #
 
 config =
+  sampleRate: 44100
   inputFile: process.argv[2]  # get input file path from first argument
   artist_title_separator: '÷' # track 'name' is of format '$artist $seperator $title'
 
@@ -24,6 +25,18 @@ config =
 fs = require('fs')
 async = require('async')
 xml2js = require('xml2js')
+moment = require('moment')
+
+timeString = (str)->
+  timestamp = (parseInt(str, 10))/(config.sampleRate/1000)
+  if timestamp is 0
+    '0:00:00.000'
+  else
+    res = moment.duration(timestamp)
+    .toJSON()
+    .replace(/[TDHM]/g, ':')
+    .replace(/^P([^S]*)?S$/, '$1')
+    .replace(/^:/, '')
 
 parseXML = (XMLString, callback)->
   callback(new Error('parseXML missing input string!')) unless XMLString?.toString?
@@ -46,7 +59,7 @@ parseTrackListFromRDF = (list, callback)->
     {
       title: artist_title[1]?.trim()
       artist: artist_title[0]?.trim()
-      time: item?['xmpDM:startTime']?[0]?.trim()
+      time: timeString(item?['xmpDM:startTime']?[0])
       url: item?['xmpDM:comment']?[0]?.trim()
     }
   callback null, tracklist 
