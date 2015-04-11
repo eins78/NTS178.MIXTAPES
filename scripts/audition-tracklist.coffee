@@ -1,20 +1,20 @@
 #!/usr/bin/env coffee
 
-###
-
-usage and example:
-$ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIXTAPE1/MIXTAPE1.sesx
-[
-  {
-    "title": "enlighted crackle box #5",
-    "artist": "Obsolet",
-    "time": "0",
-    "url": "https://soundcloud.com/abe-monk"
-  },
-  …
-]
-
-###
+#
+#
+#usage and example:
+#$ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIXTAPE1/MIXTAPE1.sesx
+#[
+#  {
+#    "title": "enlighted crackle box #5",
+#    "artist": "Obsolet",
+#    "time": "0",
+#    "url": "https://soundcloud.com/abe-monk"
+#  },
+#  …
+#]
+#
+#
 
 config =
   inputFile: process.argv[2]  # get input file path from first argument

@@ -20,6 +20,7 @@
     "hogan.js": "^3.0.2",
     "hulk": "0.0.2",
     "js-yaml": "^3.2.7",
+    "lodash": "^3.6.0",
     "podlovewebplayer": "https://github.com/podlove/podlove-web-player/tarball/release",
     "xml2js": "^0.4.6"
   }

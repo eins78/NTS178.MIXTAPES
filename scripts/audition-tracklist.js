@@ -78,7 +78,9 @@ $ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIX
       if (err) {
         throw err;
       }
-      return console.log(JSON.stringify(res, 0, 2));
+      return console.log(JSON.stringify({
+        tracks: res
+      }, 0, 2));
     });
   })();
 
