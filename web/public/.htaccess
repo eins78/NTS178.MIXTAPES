@@ -1,0 +1,3 @@
+RedirectMatch 302 ^/$ /mixtapes/
+RedirectMatch 302 ^/mixtape$ /mixtapes/#1
+RedirectMatch 302 ^/mixtape/ /mixtapes/#1
