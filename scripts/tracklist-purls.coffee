@@ -18,6 +18,11 @@ $ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIX
 
 ###
 
+# output format
+buildRedirectRule = (from_url, to_url)
+  -> "Redirect 302 #{from_url} #{to_url}"
+
+# dependencies
 getStdin  = require('get-stdin').buffer
 fs        = require('fs')
 url       = require('url')
@@ -29,6 +34,7 @@ subPath = process.argv[4]
 readInputFromFile = (callback)-> fs.readFile(inputFile, callback)
 readInputFromStdin = (callback)-> getStdin (stdin)-> callback null, stdin
 readInput = if inputFile is '-' then readInputFromStdin else readInputFromFile
+
 
 do main = ->
   readInput (err, input)->
@@ -50,9 +56,8 @@ do main = ->
             nr = index + 1 # adjust zero-based index
             trackHref = url.format(baseUrl.resolve("#{subPath}/#{nr}"))
             redirectHref = if item.url? then item.url else url.format(baseUrl)
-            "Redirect 302 #{trackHref} #{redirectHref}"
+            buildRedirectRule(trackHref, redirectHr
+              ef)
           ).join('\n')
 
     console.log res
-
-    
