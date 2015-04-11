@@ -58,6 +58,7 @@ music_styles:
 - latin folklore
 - arab folklore
 - israeli pop
+- german rap
 
 friends
 - nikos
