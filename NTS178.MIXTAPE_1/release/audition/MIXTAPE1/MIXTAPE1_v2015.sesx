@@ -71,20 +71,6 @@
             <parameter index="44" name="Niedriger Diagrammbereich" parameterValue="1"/>
           </component>
         </trackAudioParameters>
-        <effectsRack preFader="true">
-          <component id="rackMix" powered="false">
-            <parameter index="0" parameterValue="1"/>
-            <parameter index="1" parameterValue="0"/>
-          </component>
-          <component id="rackInput" powered="true">
-            <parameter index="0" parameterValue="1"/>
-            <parameter index="1" parameterValue="0"/>
-          </component>
-          <component id="rackOutput" powered="true">
-            <parameter index="0" parameterValue="1"/>
-            <parameter index="1" parameterValue="0"/>
-          </component>
-        </effectsRack>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
         <sendList>
           <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
@@ -200,7 +186,7 @@
             <component id="sendPan" powered="true"/>
           </sendSlot>
         </sendList>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="755303199" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="nts178_v2015" offline="false" select="true" sourceInPoint="0" sourceOutPoint="755303199" startPoint="0" zOrder="47">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="28508160" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="nts178_v2015" offline="false" select="false" sourceInPoint="0" sourceOutPoint="28508160" startPoint="0" zOrder="47">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
@@ -213,7 +199,7 @@
             <parameter index="0" name="Balance" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="755303199" shape="0" startPoint="755303199" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="28508160" shape="0" startPoint="28508160" type="cosine"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <channelMap>
@@ -291,8 +277,8 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="0" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="0"/>
+    <sessionState ctiPosition="749880296" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="749880296"/>
       <viewState horizontalViewDuration="830785190" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
@@ -309,10 +295,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC (Macintosh)</xmp:CreatorTool>
          <xmp:CreateDate>2015-02-21T20:07:43+01:00</xmp:CreateDate>
-         <xmp:MetadataDate>2015-04-11T19:38:46+02:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2015-04-11T19:38:46+02:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:2375ab69-4046-461f-b8f5-246173303ef8</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:09879bfb-0659-47a2-9ee8-9025bd543b92</xmpMM:DocumentID>
+         <xmp:MetadataDate>2015-04-11T21:35:12+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2015-04-11T21:35:12+02:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:b29e9bae-bd2b-40d2-9aaf-e6b85bbd4f19</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:342467cf-5448-473f-9901-c3354ced420d</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:4b9fd87b-05d1-4083-b6e6-53220284d7c1</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -1058,11 +1044,39 @@
                   <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1fa5635a-ab36-4211-8a75-267622a8487e</stEvt:instanceID>
+                  <stEvt:when>2015-04-11T21:18:26+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:342467cf-5448-473f-9901-c3354ced420d</stEvt:instanceID>
+                  <stEvt:when>2015-04-11T21:18:26+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b953558f-0bae-4fa1-b215-4d28e115ccca</stEvt:instanceID>
+                  <stEvt:when>2015-04-11T21:35:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b29e9bae-bd2b-40d2-9aaf-e6b85bbd4f19</stEvt:instanceID>
+                  <stEvt:when>2015-04-11T21:35:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:4db356ba-fd84-4d3d-a39a-d62d175fd864</stRef:instanceID>
-            <stRef:documentID>xmp.did:56567a57-9c0e-4147-ab0c-4cdd64313049</stRef:documentID>
+            <stRef:instanceID>xmp.iid:1fa5635a-ab36-4211-8a75-267622a8487e</stRef:instanceID>
+            <stRef:documentID>xmp.did:09879bfb-0659-47a2-9ee8-9025bd543b92</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:4b9fd87b-05d1-4083-b6e6-53220284d7c1</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
@@ -1619,7 +1633,7 @@
   </session>
 
   <files>
-    <file absolutePath="/Users/mfa/MFA/Desktop/NTS178.MIXTAPES/NTS178.MIXTAPE_1/NTS178.Mixtape#1 Project/nts178_v2015.m4a" id="0" mediaHandler="DLMS" relativePath="../../../NTS178.Mixtape#1 Project/nts178_v2015.m4a"/>
+    <file absolutePath="/Users/mfa/MFA/Desktop/NTS178.MIXTAPES/NTS178.MIXTAPE_1/NTS178.Mixtape#1 Project/nts178_v2015 (Teilweise).m4a" id="0" mediaHandler="DLMS" relativePath="../../../NTS178.Mixtape#1 Project/nts178_v2015 (Teilweise).m4a"/>
   </files>
 
   <audioDevice inputID="AppleHDAEngineInput:1B,0,1,0:1" outputID="AppleHDAEngineOutput:1B,0,1,1:0">

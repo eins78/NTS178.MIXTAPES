@@ -15,13 +15,16 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
+    "date-time-string": "0.0.8",
     "get-stdin": "^4.0.1",
     "hogan": "^1.0.2",
     "hogan.js": "^3.0.2",
     "hulk": "0.0.2",
+    "iso8601": "^1.1.1",
     "js-yaml": "^3.2.7",
     "lodash": "^3.6.0",
     "moment": "^2.10.2",
+    "numeral": "^1.5.3",
     "podlovewebplayer": "https://github.com/podlove/podlove-web-player/tarball/release",
     "xml2js": "^0.4.6"
   }
