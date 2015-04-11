@@ -19,8 +19,8 @@ $ coffee scripts/audition-tracklist.coffee NTS178.MIXTAPE_1/release/audition/MIX
 ###
 
 # output format
-buildRedirectRule = (from_url, to_url)
-  -> "Redirect 302 #{from_url} #{to_url}"
+buildRedirectRule = (from_url, to_url)->
+  "RedirectMatch 302 ^#{from_url}$ #{to_url}"
 
 # dependencies
 getStdin  = require('get-stdin').buffer
