@@ -1,6 +1,17 @@
 ---
 mixtape:
   title: "NTS178 MIXTAPE №1"
+  description: |
+    This is the description as it will be embedded
+    in the file and also appear on youtube.
+    
+    It can have linebreaks etc.
+    
+    Blabla.
+    
+    Links just as <http://example.com>.
+    
+    no unicode allowed. only ASCII. lulz.
 
   dates:
     live: 2010-08-08
