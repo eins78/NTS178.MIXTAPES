@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>NTS178.MIXTAPES</title>
+  <!-- make Mobile Safari play nice -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- make IE 8 play nice -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+  <body data-selected="0">
+	<div id="wrap">
+    <header>
+      <h1><a href="#">NTS178</a></h1>
+    </header>
+    <ul id="mixtapes">
+      <li id="1" class="mixtape nr1">
+        <a href="#1">
+          MIXTAPE #1
+        </a>
+        <ul class="info xhidden">
+          <li><a href="https://youtu.be/agkBQmTqYvg">YouTube</a></li>
+          <li><a href="hhttps://www.mixcloud.com/NTS178/nts178-mixtape-no1-2015-deluxe-edition/">Mixcloud</a></li>
+          <li><a href="https://archive.org/details/nts178-mixtape1-nts178_mixtapes-nts178_mixtape__1/v2">Archive.org</a></li>
+          <li><a href="magnet:?xt=urn:btih:26d420896513df87307a710c47ee3e1216871d34&dn=nts178-mixtape1-nts178%5Fmixtapes-nts178%5Fmixtape%5F%5F1&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2F&ws=http%3A%2F%2Fia601509.us.archive.org%2F4%2Fitems%2F&ws=http%3A%2F%2Fia801509.us.archive.org%2F4%2Fitems%2F">Torrent</a></li>
+        </ul>
+      </li>
+      <li id="2" class="mixtape nr2 unreleased">
+        <a href="#2">
+          MIXTAPE #2
+        </a>
+        <ul class="info">
+          <li>coming soon…</li>
+        </ul>
+      </li>
+      <li id="3" class="mixtape nr3 unreleased">
+        <a href="#3">
+          MIXTAPE #3
+        </a>
+        <ul class="info">
+          <li>coming soon…</li>
+        </ul>
+      </li>
+      <li id="4" class="mixtape nr4 unreleased unfinished">
+        <a href="#4">
+          MIXTAPE #4
+        </a>
+        <ul class="info">
+          <li>coming some day…</li>
+        </ul>
+      </li>
+    </ul>
+   </div> <!-- end #wrapper -->
+    <footer>
+      <a href="http://nts.is">
+        NTS</a>, 
+      <a href="http://178.is">
+        178</a>; 
+      <a href="http://ugandajlm.com">
+        uganda</a>.
+      <a href="https://github.com/eins78/NTS178.MIXTAPES">
+        github</a>,
+      <a href="http://www.google.com/recaptcha/mailhide/d?k=01ag6CBjNH-DC9KtIv7LxpwQ==&c=NU3Kln4qG1bVxJ98bQDwhA==">
+        contact</a>.
+    </footer>
+    
+<!-- fonts from google:
+- see https://www.google.com/fonts#UsePlace:use/Collection:Arvo:400,700|Exo:300,600|Raleway:900,600|Pathway+Gothic+One
+- we put the styles here to not block viewing the content on slow connections
+-->
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Exo:300,600|Raleway:900,600|Pathway+Gothic+One);
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	font-family: "Helvetica", sans-serif;
+	text-align: center;
+	font-weight: 900;
+	font-size: 2em;
+	color: hsla(0, 0%, 96%, 1);
+	background-color: hsla(0, 0%, 8%, 1);
+	
+  -webkit-transition: background-color 100ms linear;
+  -moz-transition: background-color 100ms linear;
+  -o-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+
+html,
+body {
+  height: 100%;
+	margin: 0;
+	padding: 0;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -3em;
+  /* Pad bottom by footer height */
+  padding: 0 0 3em;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 3em;
+}
+header {
+	height: 3em;
+	padding-bottom: 1em;
+}
+footer {
+  font-size: 0.5em;
+  font-weight: 100;
+  line-height: 1.5em;
+	padding: 2em 0;
+	border-top: 0.25em solid hsla(0, 0%, 16%, 1);
+}
+.hidden {
+  display: none;
+}
+a, a:link, a:visited {
+	color: hsla(0, 0%, 96%, 1);
+	cursor: pointer;
+}
+header a, header a:link, header a:visited,
+.mixtape a, .mixtape a:link, .mixtape a:visited {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 0.25em solid hsla(0, 0%, 96%, 1);
+}
+
+body, h1 {
+  margin: 0.25em 0 0.75em 0;
+	font-family: "Raleway", sans-serif;
+}
+h2 {
+	font-size: inherit;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+ul li {
+	padding-bottom: 0.5em;
+}
+
+.mixtape .info {
+ font-size: 0.5em;
+ line-height: 1;
+ margin-top: 1em;
+ font-weight: 100;
+}
+
+.mixtape .info a {
+ border-bottom-width: 0.15em;
+}
+
+.mixtape.unreleased {
+	opacity: 0.55;
+}
+
+.mixtape.unfinished {
+	opacity: 0.15;
+}
+
+.mixtape a, .mixtape a:link, .mixtape a:visited {
+  border-color: hsla(0, 0%, 96%, 1);
+}
+
+body[data-selected="1"] footer,
+body[data-selected="2"] footer,
+body[data-selected="3"] footer,
+body[data-selected="4"] footer {
+	border-top: 0.25em solid hsla(0, 0%, 96%, 1);
+}
+
+.mixtape.nr1,
+body[data-selected="1"] header h1 {
+	font-family: "Arvo", sans-serif;
+} 
+.mixtape.nr1{
+	color: hsla(24, 82%, 62%, 1);	
+}
+.mixtape.nr1 a {
+/* 	border-color: hsla(24, 82%, 62%, 1);	 */
+}
+body[data-selected="1"] {
+	background-color: hsla(24, 82%, 62%, 1);	
+}
+body[data-selected="1"],
+body[data-selected="1"] .mixtape.nr1 a,
+body[data-selected="1"] .mixtape.nr1 .info,
+body[data-selected="1"] header h1 {
+	color: hsla(0, 0%, 96%, 1);
+	border-bottom-color: hsla(0, 0%, 96%, 1);
+}
+
+.mixtape.nr2,
+body[data-selected="2"] header h1 {
+  font-family: "Pathway Gothic One", sans-serif;
+} 
+.mixtape.nr2 {
+	color: hsla(1, 57%, 55%, 1);
+  font-size: 1.8em;
+  padding-bottom: 0.1em;
+} 
+.mixtape.nr2 a {
+  border-color: hsla(1, 57%, 55%, 1);
+}
+body[data-selected="2"] {
+/* 	background-color: hsla(1, 57%, 55%, 1);	 */
+}
+body[data-selected="2"],
+body[data-selected="2"] .mixtape.nr2 a,
+body[data-selected="2"] .mixtape.nr2 .info,
+body[data-selected="2"] header h1 {
+	color: hsla(0, 0%, 96%, 1);
+	border-bottom-color: hsla(0, 0%, 96%, 1);
+}
+.mixtape.nr2 .info {
+  font-size: 0.35em;
+}
+
+.mixtape.nr3,
+body[data-selected="3"] header h1 {
+	font-family: "Exo", sans-serif;
+	font-weight: 100;
+} 
+
+.mixtape.nr3 {
+	color: #62b16c;
+  font-size: 1.15em;
+  padding-bottom: 0.7em;
+} 
+.mixtape.nr3 a {
+  border-color: #537f97;
+}
+body[data-selected="3"] {
+/* 	background-color: #62b16c;	 */
+}
+body[data-selected="3"],
+body[data-selected="3"] .mixtape.nr3 a,
+body[data-selected="3"] .mixtape.nr3 .info,
+body[data-selected="3"] header h1 {
+	color: hsla(0, 0%, 96%, 1);
+	border-bottom-color: #537f97;
+}
+body[data-selected="3"] .mixtape.nr3 a {
+	border-bottom-color: hsla(0, 0%, 96%, 1);
+}
+.mixtape.nr3 .info {
+}
+
+.mixtape.nr4,
+body[data-selected="4"] header h1 {
+	font-family: "Raleway", sans-serif;
+} 
+
+.mixtape.nr4 {
+	color: #d02b5d;
+  font-size: 1.15em;
+  padding-bottom: 0.7em;
+} 
+.mixtape.nr4 a {
+  border-color: #04fe70;
+}
+body[data-selected="4"] {
+/* 	background-color: #d02b5d;	 */
+}
+body[data-selected="4"],
+body[data-selected="4"] .mixtape.nr4 a,
+body[data-selected="4"] .mixtape.nr4 .info,
+body[data-selected="4"] header h1 {
+	color: hsla(0, 0%, 96%, 1);
+	border-bottom-color: #04fe70;
+}
+body[data-selected="4"] .mixtape.nr4 a {
+	border-bottom-color: hsla(0, 0%, 96%, 1);
+}
+.mixtape.nr4 .info {
+}
+
+a:hover,
+.mixtape .info a:hover,
+header a:hover {
+	color: blue;
+	border-bottom-color: blue;
+}
+#mixtapes a:hover {
+	color: hsla(0, 0%, 15%, 1);
+}
+
+
+/*
+@media screen and (min-width: 24em){
+  body {
+  	font-size: 3em;
+  }
+}
+
+*/
+</style>
+<script type="text/javascript">
+// when the DOM is ready, 
+// get all links and add functions to all of them
+var links = document.querySelectorAll('.mixtape, header'),
+      events = {};
+  
+  // list of events to listen to 
+/*   events.on = ['mouseover', 'touchstart', 'touchenter']; */
+/*   events.off = ['mouseout', 'touchend', 'touchleave', 'touchcancel']; */
+  events.on = ['mouseover', 'touchstart', 'touchenter'];
+  events.off = [];
+  
+  // for all the links
+  for (var i = 0; i < links.length; i=i+1) {
+    
+    // listen to all the events
+    for (var e = 0; e < events.on.length; e=e+1) {
+      links[i].addEventListener(events.on[e], hover);          
+    }
+    for (var o = 0; o < events.on.length; o=o+1) {
+      links[i].addEventListener(events.off[o], unhover);          
+    }
+  }
+  
+// a data attribute is set on the body with id of hovered element
+function hover() {
+  var element = this;
+  // get `id` from `el` OR it's parent OR use `0`
+  var selected = 
+        element.getAttribute('id')
+        || element.parentNode.getAttribute('id')
+        || 0;
+  document.body.setAttribute('data-selected', selected);
+}
+function unhover() {
+  document.body.setAttribute('data-selected', '0');
+}
+
+</script>
+</body>
+</html>
