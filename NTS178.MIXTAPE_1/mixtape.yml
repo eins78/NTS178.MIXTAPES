@@ -17,4 +17,324 @@ mixtape:
     live: 2010-08-08
     mix: 2011-04-11
 
-  tracks: ~ # imported from Adobe Audition session file.
+  tracks: # imported from Adobe Audition session file.
+    - 
+      title: "enlighted crackle box #5"
+      artist: "Obsolet"
+      time: "0:00:00.000"
+      url: "https://soundcloud.com/abe-monk"
+    - 
+      title: "Revolution"
+      artist: "Roots Manuva"
+      time: "8:5.324603174603137"
+      url: "http://ninjatune.net/release/roots-manuva/dub-come-save-me"
+    - 
+      title: "Hasir"
+      artist: "Modeselektor"
+      time: "12:17.219501133786864"
+      url: "https://itunes.apple.com/de/album/hasir/id962781108?i=962781297&l=en"
+    - 
+      title: "La Playa"
+      artist: "Deichkind"
+      time: "15:47.66934240362805"
+      url: "https://www.youtube.com/watch?v=O_IQW9bwR3U"
+    - 
+      title: "I.A.M."
+      artist: "Pentatones"
+      time: "19:37.76088435374154"
+      url: "https://itunes.apple.com/de/album/i.a.m./id380933231?i=380933474&l=en"
+    - 
+      title: "Street Monk"
+      artist: "Animator"
+      time: "25:36.18301587301586"
+      url: "https://myspace.com/iamtheanimator/music/song/street-monk-93656083-104194157"
+    - 
+      title: "pull-me-trust-me-rmx feat. Mike Skinner"
+      artist: "EINS78"
+      time: "31:41.9580498866213"
+      url: "https://soundcloud.com/eins78/trust-me-pull-me-remix"
+    - 
+      title: "Mango"
+      artist: "Sascha Funke"
+      time: "35:55.224784580498934"
+      url: "https://www.bpitchcontrol.de/market/browse/1570"
+    - 
+      title: "Takashi"
+      artist: "Avant-Hart"
+      time: "41:17.28399092970509"
+      url: ""
+    - 
+      title: "Ba Ba Bounce"
+      artist: "Marbert Rocel"
+      time: "44:59.08741496598628"
+      url: "https://www.youtube.com/watch?v=gBIvT44_Vz8"
+    - 
+      title: "Mumtaz Khan"
+      artist: "Ratatat"
+      time: "48:36.63024943310628"
+      url: "http://www.ratatatmusic.com"
+    - 
+      title: "Witness (1 Hope)"
+      artist: "Roots Manuva"
+      time: "51:16.743151927437633"
+      url: "http://ninjatune.net/release/roots-manuva/run-come-save-me"
+    - 
+      title: "Lots of Signs feat. Patrice"
+      artist: "Dynamite Deluxe"
+      time: "54:41.726054421768524"
+      url: "http://genius.com/Dynamite-deluxe-lots-of-signs-lyrics"
+    - 
+      title: "Les Djinns (Trentemøller Remix)"
+      artist: "Djuma Soundsystem"
+      time: "58:14.892743764172309"
+      url: "https://itunes.apple.com/de/album/les-djinns-trentemoller-remix/id251324119?i=251328594&l=en"
+    - 
+      title: "Profis"
+      artist: "Blumentopf"
+      time: "1:2:14.45519274376426"
+      url: "http://genius.com/Blumentopf-profis-lyrics"
+    - 
+      title: "Elektronda De Breque"
+      artist: "Konsumprodukt"
+      time: "1:4:58.958276643991006"
+      url: "https://archive.org/details/tA_D_kpradio"
+    - 
+      title: "Thriller"
+      artist: "Superpowerless"
+      time: "1:8:50.85154195011314"
+      url: "https://www.youtube.com/watch?v=htVa2stX_RA"
+    - 
+      title: "Sprachfehler"
+      artist: "Robosonic"
+      time: "1:13:53.55569160997681"
+      url: "https://itunes.apple.com/de/album/sprachfehler/id263703634?i=263704659&l=en"
+    - 
+      title: "Moderat vs. Usher feat. Ludacris and Nate Dogg - Yeah New Error Codes (NTS178 Mashup)"
+      artist: "EINS78"
+      time: "1:18:7.412312925170176"
+      url: ""
+    - 
+      title: "Next Summer Hit (I want to shout it out)"
+      artist: "bikecore"
+      time: "1:23:20.622063492063432"
+      url: "https://soundcloud.com/bikecore/next-summer-hit-i-want-to-shout-it-out-1"
+    - 
+      title: "Mehr"
+      artist: "Blumentopf"
+      time: "1:26:18.848639455782248"
+      url: "http://genius.com/Blumentopf-mehr-lyrics"
+    - 
+      title: "Heavy Dreams"
+      artist: "Taboo Plus"
+      time: "1:29:54.71505668934248"
+      url: "http://youtu.be/563x9wQeL9k"
+    - 
+      title: "Ambition"
+      artist: "TTC"
+      time: "1:31:47.76927437641751"
+      url: "https://itunes.apple.com/de/album/ambition/id416309109?i=416309120&l=en"
+    - 
+      title: "Moan feat. Anne Trolle (Trentemøller Remix)"
+      artist: "Trentemøller"
+      time: "1:36:38.80029478458036"
+      url: "https://itunes.apple.com/de/album/moan-trentem-ller-remix/id404695106?i=404695198&l=en"
+    - 
+      title: "the-circuit ("Magic Smoke" Remix feat. Richie Spice)"
+      artist: "EINS78"
+      time: "1:43:1.5983446712018923"
+      url: "https://soundcloud.com/178/eins78-the-circuit"
+    - 
+      title: "Stadtkind"
+      artist: "Ellen Allien"
+      time: "1:51:11.532176870748401"
+      url: "https://www.bpitchcontrol.de/artists/ellen-allien/"
+    - 
+      title: "Rodchenko in my Bauhaus (Human Dollz Mix)"
+      artist: "Candy Chang"
+      time: "1:55:55.007505668934435"
+      url: "http://candychang.com"
+    - 
+      title: "Line To Dot"
+      artist: "Human Dollz"
+      time: "2:7:21.66689342403598"
+      url: "http://humandollz.com/av_en.html"
+    - 
+      title: "Tapped"
+      artist: "Skream"
+      time: "2:12:10.66755102040805"
+      url: "https://itunes.apple.com/de/album/tapped-feat.-jme/id880145365?i=880145532&l=en"
+    - 
+      title: "Konichiwa Bitches (Trentemøller Remix)"
+      artist: "Robyn"
+      time: "2:15:30.439433106576093"
+      url: "https://itunes.apple.com/de/album/konichiwa-bitches-trentem/id256260275?i=256260426&l=en"
+    - 
+      title: "Zucker (feat. Vanessa Mason)"
+      artist: "Peter Fox"
+      time: "2:21:23.457687074828893"
+      url: "https://itunes.apple.com/de/album/zucker-feat.-vanessa-mason/id291805242?i=291805256&l=en"
+    - 
+      title: "Une Bande De Mecs Sympas feat. Modeselektor"
+      artist: "TTC"
+      time: "2:24:6.593378684807568"
+      url: "https://itunes.apple.com/de/album/une-bande-de-mec-sympa/id416309109?i=416309121&l=en"
+    - 
+      title: "Kalemba (Wegue-Wegue) feat. Pongolove"
+      artist: "Buraka Som Sistema"
+      time: "2:28:9.117641723355279"
+      url: "https://www.youtube.com/watch?v=OpYR7ilLbfo"
+    - 
+      title: "Loin De Moi"
+      artist: "Rework"
+      time: "2:31:37.31297052154131"
+      url: "https://itunes.apple.com/de/album/loin-de-moi/id796894655?i=796894750&l=en"
+    - 
+      title: "Freiflug (NTS178 "Wild Wild West" Mashup feat. Will Smith, Dru Hill)"
+      artist: "Kollektiv Turmstrasse"
+      time: "2:37:52.036258503401655"
+      url: ""
+    - 
+      title: "Arcadia"
+      artist: "Apparat"
+      time: "2:44:39.73519274376333"
+      url: "https://soundcloud.com/apparat/arcadia"
+    - 
+      title: "Witness Dub"
+      artist: "Roots Manuva"
+      time: "2:48:45.216303854875264"
+      url: "http://ninjatune.net/release/roots-manuva/dub-come-save-me"
+    - 
+      title: "Night"
+      artist: "Benga"
+      time: "2:52:2.499909297050908"
+      url: "http://youtu.be/rNStVlJWy88"
+    - 
+      title: "I see a darkness feat. Johnny Cash"
+      artist: "Acid Pauli"
+      time: "2:57:10.777573696143925"
+      url: "http://youtu.be/zjcqpp79nSo"
+    - 
+      title: "Kabale und Liebe"
+      artist: "Robosonic"
+      time: "3:2:53.291882086167114"
+      url: "https://itunes.apple.com/de/album/kabale-und-liebe/id263703634?i=263705330&l=en"
+    - 
+      title: "One Day"
+      artist: "The Juan MacLean"
+      time: "3:6:39.19170068027265"
+      url: "http://youtu.be/wBGs8JkVkFY"
+    - 
+      title: "The Maker"
+      artist: "Omar-S"
+      time: "3:10:33.70555555555597"
+      url: "https://pro.beatport.com/track/the-maker-original-mix/782579"
+    - 
+      title: "Dark Side Of My Room"
+      artist: "Extrawelt"
+      time: "3:14:50.30337868480757"
+      url: "https://soundcloud.com/extrawelt-official/dark-side-of-my-room"
+    - 
+      title: "Esplanade 97"
+      artist: "Francisco"
+      time: "3:21:18.207664399093016"
+      url: "https://itunes.apple.com/de/album/esplanade-97/id98849747?i=98849332&l=en"
+    - 
+      title: "Liebe Ist ..."
+      artist: "Stephan Bodzin"
+      time: "3:25:58.5"
+      url: "https://itunes.apple.com/de/album/liebe-ist.../id220045415?i=220045499&l=en"
+    - 
+      title: "Gothic Girl (Mense's Club Mix)"
+      artist: "International Pony"
+      time: "3:31:55.42351473922841"
+      url: "https://itunes.apple.com/de/album/gothic-girl-menses-club-mix/id172133660?i=172133892&l=en"
+    - 
+      title: "Minimal (DJ Koze Remix)"
+      artist: "Matias Aguayo"
+      time: "3:36:2.6263718820866195"
+      url: "http://www.kompakt.fm/releases/minimal_dj_koze_mix"
+    - 
+      title: "Solar Trip (feat. Katya Tyokova)"
+      artist: "Maxx Brannslokker"
+      time: "3:41:15.01591836734675"
+      url: "https://itunes.apple.com/de/album/solar-trip-feat.-katya-tyukova/id289369493?i=289373770&l=en"
+    - 
+      title: "Drugs"
+      artist: "Ratatat"
+      time: "3:44:53.68990929705091"
+      url: "http://youtu.be/KhrteSZXFzM"
+    - 
+      title: "D.A.N.C.E."
+      artist: "Justice"
+      time: "3:48:18.46199546485208"
+      url: "http://youtu.be/sy1dYFGkPUE"
+    - 
+      title: "Bonkers feat. Armand Van Helden"
+      artist: "Dizzee Rascal"
+      time: "3:51:33.742653061224146"
+      url: "http://youtu.be/Ci40ae8BlcE"
+    - 
+      title: "Bitches Ain't Shit (Dr. Dre Cover)"
+      artist: "Ben Folds"
+      time: "3:54:20"
+      url: "http://youtu.be/S-l-c3rTlnE"
+    - 
+      title: "It's Not Over Yet (Skream Remix)"
+      artist: "Klaxons"
+      time: "3:57:59.14666666666604"
+      url: "http://www.last.fm/music/Klaxons/_/It's+Not+Over+Yet+(Skream+Remix)"
+    - 
+      title: "Alles im Arsch"
+      artist: "Deutsche Band"
+      time: "4:1:17.539365079363808"
+      url: "https://myspace.com/deutscheband/music/song/alles-im-arsch-7281148-7082332"
+    - 
+      title: "That Sound Wiped"
+      artist: "Von Südenfed"
+      time: "4:4:32.8597959183678"
+      url: "https://itunes.apple.com/de/album/that-sound-wiped/id252874122?i=252874221&l=en"
+    - 
+      title: "Freak-A-Holic (12" Dub Mix)"
+      artist: "The Egyptian Lover"
+      time: "4:10:36"
+      url: "https://itunes.apple.com/de/album/freak-a-holic/id276070123?i=276070437&l=en"
+    - 
+      title: "Tüdeldub"
+      artist: "Viktor Marek & Jacques Palminger"
+      time: "4:16:16.36308390022628"
+      url: "http://www.pudel.com/produkte.php?pID=6"
+    - 
+      title: "Hypnose (EINS78 "Digital is Besser" Remix)"
+      artist: "Spieltrieb"
+      time: "4:20:16.551859410431234"
+      url: "https://soundcloud.com/eins78/hypnose-eins78-digital-is-besser-remix-preview"
+    - 
+      title: "Antenne 2"
+      artist: "TTC"
+      time: "4:26:39.669387755101546"
+      url: "https://itunes.apple.com/de/album/antenne-2/id416309109?i=416309116&l=en"
+    - 
+      title: "Perpetual Emotion Mashine"
+      artist: "Sex In Dallas & Biladoll"
+      time: "4:31:5.670022675735876"
+      url: "https://itunes.apple.com/de/album/perpetual-emotion-maschine/id674702774?i=674703153&l=en"
+    - 
+      title: "Twenty Eight Love Song"
+      artist: "Robert Le Magnifique"
+      time: "4:33:48.58807256235741"
+      url: "https://itunes.apple.com/de/album/twenty-eight-love-song/id274583123?i=274583249&l=en"
+    - 
+      title: "Bilar (EINS78 "Dre & M sitzen ums Lagerfeuer" Mashup feat. Dr. Dre, Eminem)"
+      artist: "Ratatat"
+      time: "4:36:43.63247165532783"
+      url: "https://soundcloud.com/178/ratatat-vs-dre-eminem-bilar-about-dre"
+    - 
+      title: "Too Much"
+      artist: "Bonaparte"
+      time: "4:40:17.98798185940832"
+      url: "https://itunes.apple.com/de/album/too-much/id274067888?i=274067895&l=en"
+    - 
+      title: "We Can't Be Stopped"
+      artist: "Ratatat"
+      time: "4:43:22.9"
+      url: "https://itunes.apple.com/de/album/we-cant-be-stopped/id369886393?i=369886554&l=en"
