@@ -95,44 +95,8 @@ we put the styles here to not block viewing the content on slow connections
   @import url(style.css);
   @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Exo:300,600|Raleway:900,600|Pathway+Gothic+One);
 </style>
-<script type="text/javascript">
-// when the DOM is ready, 
-// get all links and add functions to all of them
-var links = document.querySelectorAll('.mixtape, header'),
-      events = {};
-  
-  // list of events to listen to 
-/*   events.on = ['mouseover', 'touchstart', 'touchenter']; */
-/*   events.off = ['mouseout', 'touchend', 'touchleave', 'touchcancel']; */
-  events.on = ['mouseover', 'touchstart', 'touchenter'];
-  events.off = [];
-  
-  // for all the links
-  for (var i = 0; i < links.length; i=i+1) {
-    
-    // listen to all the events
-    for (var e = 0; e < events.on.length; e=e+1) {
-      links[i].addEventListener(events.on[e], hover);          
-    }
-    for (var o = 0; o < events.on.length; o=o+1) {
-      links[i].addEventListener(events.off[o], unhover);          
-    }
-  }
-  
-// a data attribute is set on the body with id of hovered element
-function hover() {
-  var element = this;
-  // get `id` from `el` OR it's parent OR use `0`
-  var selected = 
-        element.getAttribute('id')
-        || element.parentNode.getAttribute('id')
-        || 0;
-  document.body.setAttribute('data-selected', selected);
-}
-function unhover() {
-  document.body.removeAttribute('data-selected');
-}
-
+<!-- when the DOM is ready: -->
+<script src="script.js" type="text/javascript">
 </script>
 </body>
 </html>
