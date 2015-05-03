@@ -23,9 +23,10 @@ var links = document.querySelectorAll('.mixtape, header'),
 // a data attribute is set on the body with id of hovered element
 function hover() {
   var element = this;
-  // get `id` from `el` OR it's parent OR use `0`
+  // get `id` from hash OR `el` OR it's parent OR use `0`
   var selected = 
-        element.getAttribute('id')
+        getHash()
+        || element.getAttribute('id')
         || element.parentNode.getAttribute('id')
         || 0;
   document.body.setAttribute('data-selected', selected);
@@ -33,3 +34,18 @@ function hover() {
 function unhover() {
   document.body.removeAttribute('data-selected');
 }
+
+function getHash() {
+  var loc, hash;
+  loc = document.location;
+  if (loc !== null) { 
+    hash = loc.hash
+    if (hash !== null && 'function' === typeof hash.replace) {
+      return hash.replace(/^#/, '');
+    }
+  } 
+}
+
+// set from hash on startup
+var currentSelection = getHash()
+if (currentSelection) document.body.setAttribute('data-selected', currentSelection);
