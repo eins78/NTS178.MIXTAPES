@@ -52,34 +52,20 @@ ul {
 }
 ul li { padding-bottom: 0.5em }
 
-ul.inline { margin-top: 0; }
+ul.inline {
+  display: inline;
+  margin-top: 0
+}
 ul.inline li { display: inline }
+ul.inline.dashed li:after { content: ' – ' }
+ul.inline.dashed li:last-child:after { content: '' }
 ul.inline.textual li:after { content: ', ' }
 ul.inline.textual li:last-child:before { content: ' and ' }
 ul.inline.textual li:last-child:after { content: '.' }
 
-/*
-body, body * {
-  -webkit-transition: background-color 1000ms linear;
-  -moz-transition: background-color 1000ms linear;
-  -o-transition: background-color 1000ms linear;
-  -ms-transition: background-color 1000ms linear;
-  transition: background-color 1000ms linear;
-  
-  -webkit-transition: color 1000ms linear;
-  -moz-transition: color 1000ms linear;
-  -o-transition: color 1000ms linear;
-  -ms-transition: color 1000ms linear;
-  transition: color 1000ms linear;
-  
-  -webkit-transition: border-color 1000ms linear;
-  -moz-transition: border-color 1000ms linear;
-  -o-transition: border-color 1000ms linear;
-  -ms-transition: border-color 1000ms linear;
-  transition: border-color 1000ms linear;
+body {
+  transition: background-color 100ms linear;
 }
-*/
-
 
 /* layout and typo */
 hr {
@@ -169,14 +155,14 @@ section h2:before {
 */
 
 .mixtape .info {
- font-size: 0.5em;
+ font-size: 0.45em;
  line-height: 1;
  margin-top: 1em;
  font-weight: 100;
 }
-
 .mixtape .info a {
  border-bottom-width: 0.15em;
+ font-weight: 100;
 }
 
 .mixtape.unreleased {
@@ -202,10 +188,14 @@ body[data-selected="1"] header h1 {
 	color: hsla(24, 82%, 62%, 1);	
 }
 .mixtape.nr1 a {
-  font-weight: 900;
 	border-color: hsla(24, 82%, 62%, 1);	
 }
-body[data-selected="1"],
+body[data-selected="1"] {
+  font-family: "Arvo", sans-serif;
+	color: hsla(0, 0%, 96%, 1);
+	background-color: hsla(24, 82%, 62%, 1);	
+	border-color: hsla(0, 0%, 96%, 1);
+}
 body[data-selected="1"] .mixtape.nr1 a,
 body[data-selected="1"] .mixtape.nr1 .info,
 body[data-selected="1"] header h1,
@@ -213,7 +203,6 @@ body[data-selected="1"] hr,
 body[data-selected="1"] footer {
   font-family: "Arvo", sans-serif;
 	color: hsla(0, 0%, 96%, 1);
-	background-color: hsla(24, 82%, 62%, 1);	
 	border-color: hsla(0, 0%, 96%, 1);
 }
 
