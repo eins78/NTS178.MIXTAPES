@@ -2,8 +2,8 @@
 <!DOCTYPE sesx>
 <sesx version="1.2">
 
-  <session appBuild="8.1.0.162" appVersion="8.1" audioChannelType="stereo" bitDepth="32" duration="668318344" sampleRate="44100">
-    <name>MIXTAPE2_20170417T131535.516450.sesx</name>
+  <session appBuild="8.1.0.162" appVersion="8.1" audioChannelType="stereo" bitDepth="32" duration="666830280" sampleRate="44100">
+    <name>MIXTAPE2_20170417T184602.800594.sesx</name>
     <tracks>
       <audioTrack automationLaneOpenState="false" id="10003" index="1" select="true" visible="true">
         <trackParameters trackHeight="460" trackHue="-1" trackMinimized="false">
@@ -72,7 +72,7 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="666828310" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="SHA256E-s2667436197--332f22dbc7bebb2a97c84b865aac0786e15b1aec4860fda693b3209c934a6379" offline="false" select="true" sourceInPoint="0" sourceOutPoint="666828310" startPoint="0" zOrder="484">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="666828310" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="SHA256E-s2667436197--332f22dbc7bebb2a97c84b865aac0786e15b1aec4860fda693b3209c934a6379" offline="false" select="true" sourceInPoint="0" sourceOutPoint="666828310" startPoint="0" zOrder="487">
           <component componentGuid="5657e048-c3e3-4e88-9a08-0758b800123b" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
@@ -188,9 +188,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="278469761" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="278469761"/>
-      <viewState horizontalViewDuration="31145" horizontalViewStart="278454188" trackControlsWidth="224" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="237469245" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="237469245"/>
+      <viewState horizontalViewDuration="120547" horizontalViewStart="237408971" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -206,10 +206,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC (Macintosh)</xmp:CreatorTool>
          <xmp:CreateDate>2015-05-02T16:50:48+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2017-04-17T13:15:35+02:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2017-04-17T13:15:35+02:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:405e7131-ea16-4910-a40b-7a3e0f289684</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:405e7131-ea16-4910-a40b-7a3e0f289684</xmpMM:DocumentID>
+         <xmp:MetadataDate>2017-04-17T18:46:02+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2017-04-17T18:46:02+02:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:6a9fdb24-c1fa-4c1d-b188-7977fbe5a2f1</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:6a9fdb24-c1fa-4c1d-b188-7977fbe5a2f1</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:381a0112-95b8-41ad-890f-5130291987a7</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -1774,11 +1774,249 @@
                   <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e3c3940a-ef8e-4b3a-bbeb-7db4df93f549</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:21:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d6da1213-4768-4ed8-b5b2-a6c2ee2fc433</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:21:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ba36daca-5ba2-4b1f-b8cf-cb5c7dd7463b</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:24:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a7dccbf2-6c28-44da-b130-695fc2bb138b</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:24:09+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8302588b-e4fc-4d06-803a-9c133a3c0ed5</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:25:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a6d4a4ae-319c-49dd-80c8-6aa15b05e77f</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:25:33+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3f76f555-3c90-4533-8c72-27c38c158c30</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:51:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:48b4df6a-6dbc-44d5-b5a7-18dc02159155</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:51:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d0ef3f66-09c7-4490-a72c-7eefdac15811</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:54:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:18e62159-3290-47ab-91e6-0734a2715515</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:54:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1639c7f6-0556-4f39-9dc5-5fd475baef55</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:55:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:906d0737-bb12-4731-824f-c44d1b355955</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:55:43+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:15c98c6f-6fa4-408a-b09c-0696f117a428</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:57:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c70545de-6c50-4968-bf57-16c296168d16</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T13:57:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a0a6b60d-6725-45fe-aa5d-17df7284cc2d</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:02:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1a017810-4d0a-44c8-8225-3d8212017450</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:02:19+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8ecd3fad-c53c-42f5-bb0c-e0bbda9a2e41</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:05:47+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fbaaf897-7c7a-45ea-9f4d-9f2332b365a3</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:05:47+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fd3b0530-8251-43b2-8c02-a8b96d91d724</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:10:14+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ae932b7d-db32-459b-9130-2b08bb46a496</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:10:14+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2057264e-2d2a-4cf4-a6c8-48d8af3028a1</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:13:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:221b1f76-b56c-4003-b19c-fb4ef9a7700c</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:13:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7611a616-bab3-487a-9781-24f71f80d066</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:15:23+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:074eb579-e293-4b20-a19a-6a35cd8b1d19</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:15:23+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:edb465e2-82cd-4fc2-bd31-685e87252420</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:19:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b1cfebc2-4cf4-485d-b881-4cc0550f793f</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T14:19:15+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7b4b00e7-3c34-4392-8f7b-b2cea769b9a3</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T15:15:26+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a568f081-3a49-483b-b480-176e6f1fedb9</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T15:15:26+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e0000c93-5834-4096-a05a-4df77ec394cf</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T17:12:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:fedd72bc-fe12-4103-8376-86578e720408</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T17:12:22+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:55622bc9-c75e-41c6-aa1e-f991cbd0b1d4</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T18:42:25+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d39b58d8-0465-44a0-9b0c-b69214089e2c</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T18:42:25+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:573ddb51-13d0-462e-8ea4-759ec61a673e</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T18:46:02+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6a9fdb24-c1fa-4c1d-b188-7977fbe5a2f1</stEvt:instanceID>
+                  <stEvt:when>2017-04-17T18:46:02+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:4f22d08d-0387-4a78-af38-62103a5b2d33</stRef:instanceID>
-            <stRef:documentID>xmp.did:36f0e3c1-7705-4e0d-9e49-85a88aa0e2e3</stRef:documentID>
+            <stRef:instanceID>xmp.iid:573ddb51-13d0-462e-8ea4-759ec61a673e</stRef:instanceID>
+            <stRef:documentID>xmp.did:d39b58d8-0465-44a0-9b0c-b69214089e2c</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:381a0112-95b8-41ad-890f-5130291987a7</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
@@ -1798,24 +2036,25 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:8269e888-573e-4bbe-91b5-86229e679432</xmpDM:value>
+                                    <xmpDM:value>xmp:id:9dfcc866-b2b8-4746-9949-bc527f3c39fc</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:8269e888-573e-4bbe-91b5-86229e679432</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:9dfcc866-b2b8-4746-9949-bc527f3c39fc</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>1306957</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/bit-depth</xmpDM:comment>
                            <xmpDM:name>bit.depth ÷ Regenbeat</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:64a7d076-ed82-48c5-a432-b3029d06a669</xmpDM:value>
+                                    <xmpDM:value>xmp:id:626f1600-0df8-4c67-bdd3-781aca284357</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:64a7d076-ed82-48c5-a432-b3029d06a669</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:626f1600-0df8-4c67-bdd3-781aca284357</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>7980796</xmpDM:startTime>
@@ -1825,11 +2064,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:7f210f43-973b-4df2-848e-363e2c201544</xmpDM:value>
+                                    <xmpDM:value>xmp:id:5ada212d-bf56-4610-bd8f-5bf56a990d0e</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:7f210f43-973b-4df2-848e-363e2c201544</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:5ada212d-bf56-4610-bd8f-5bf56a990d0e</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>19560372</xmpDM:startTime>
@@ -1839,11 +2078,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:666372f8-79d1-47c1-b033-9bc1960af5b6</xmpDM:value>
+                                    <xmpDM:value>xmp:id:7c0d4a73-9b74-4fe1-b38f-318ff347cc36</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:666372f8-79d1-47c1-b033-9bc1960af5b6</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:7c0d4a73-9b74-4fe1-b38f-318ff347cc36</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>27149957</xmpDM:startTime>
@@ -1853,11 +2092,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:2c1e18c1-fc41-4ac0-a57e-740b0e4c2958</xmpDM:value>
+                                    <xmpDM:value>xmp:id:92fa8e57-1358-495d-8164-d6cdf16977c9</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:2c1e18c1-fc41-4ac0-a57e-740b0e4c2958</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:92fa8e57-1358-495d-8164-d6cdf16977c9</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>31858913</xmpDM:startTime>
@@ -1867,11 +2106,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:59395605-4973-4056-832c-3db78bf95fec</xmpDM:value>
+                                    <xmpDM:value>xmp:id:9dac21c2-5279-43df-8993-0072d7fd9f4e</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:59395605-4973-4056-832c-3db78bf95fec</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:9dac21c2-5279-43df-8993-0072d7fd9f4e</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>34246605</xmpDM:startTime>
@@ -1881,11 +2120,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:39703b77-1fa9-480f-a1d9-95dc4b870344</xmpDM:value>
+                                    <xmpDM:value>xmp:id:10fca879-609c-4202-bba4-4162dab7ef2c</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:39703b77-1fa9-480f-a1d9-95dc4b870344</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:10fca879-609c-4202-bba4-4162dab7ef2c</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>37797113</xmpDM:startTime>
@@ -1895,11 +2134,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:7adab2da-4c25-40ee-8014-debd5db31713</xmpDM:value>
+                                    <xmpDM:value>xmp:id:fc4e5a98-cdfa-4f85-8cd0-6f6e7ccbcd51</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:7adab2da-4c25-40ee-8014-debd5db31713</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:fc4e5a98-cdfa-4f85-8cd0-6f6e7ccbcd51</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>42460506</xmpDM:startTime>
@@ -1909,25 +2148,25 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:bf5851e2-8f3e-4673-b17d-e907beee179d</xmpDM:value>
+                                    <xmpDM:value>xmp:id:ae827e35-6d53-4b45-91a4-980a484b2351</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:bf5851e2-8f3e-4673-b17d-e907beee179d</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:ae827e35-6d53-4b45-91a4-980a484b2351</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>50553440</xmpDM:startTime>
                            <xmpDM:comment>https://www.discogs.com/Modeselektor-Labland/release/452745</xmpDM:comment>
-                           <xmpDM:name>Modeselektor ÷ My Mosquee Is My Cathedral</xmpDM:name>
+                           <xmpDM:name>Modeselektor ÷ My Mosque Is My Cathedral</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:c63bd6b6-700c-4662-b977-ac369128fd53</xmpDM:value>
+                                    <xmpDM:value>xmp:id:15b9c483-2d94-4db9-9660-4f1bf9694eeb</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:c63bd6b6-700c-4662-b977-ac369128fd53</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:15b9c483-2d94-4db9-9660-4f1bf9694eeb</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>56885048</xmpDM:startTime>
@@ -1936,11 +2175,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:576efb01-737e-4375-a768-603fcfd5a99b</xmpDM:value>
+                                    <xmpDM:value>xmp:id:6f8e171b-47dd-44fc-82e3-c77ba075be2b</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:576efb01-737e-4375-a768-603fcfd5a99b</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:6f8e171b-47dd-44fc-82e3-c77ba075be2b</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>73681923</xmpDM:startTime>
@@ -1950,25 +2189,25 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:b322b1ab-da16-4d88-b745-26fc33240298</xmpDM:value>
+                                    <xmpDM:value>xmp:id:57b85322-2046-4b41-9807-c629c0505de2</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:b322b1ab-da16-4d88-b745-26fc33240298</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:57b85322-2046-4b41-9807-c629c0505de2</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>86528610</xmpDM:startTime>
                            <xmpDM:comment>https://www.youtube.com/watch?v=Q2jW6GnseoE</xmpDM:comment>
-                           <xmpDM:name>Jamie Woon ÷ Night Air (Ramadanman refix)</xmpDM:name>
+                           <xmpDM:name>Jamie Woon ÷ Night Air (Ramadanman Refix)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:b8322fa0-9e82-412f-bea4-2dd9c82e0991</xmpDM:value>
+                                    <xmpDM:value>xmp:id:af32c20e-aac6-4611-90f6-07dde5f80e42</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:b8322fa0-9e82-412f-bea4-2dd9c82e0991</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:af32c20e-aac6-4611-90f6-07dde5f80e42</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>94377444</xmpDM:startTime>
@@ -1978,11 +2217,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:f59e4e9e-206d-4f5b-a10b-c5ff5763a910</xmpDM:value>
+                                    <xmpDM:value>xmp:id:735636b3-0bd0-4796-a01b-51cde1f6c203</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:f59e4e9e-206d-4f5b-a10b-c5ff5763a910</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:735636b3-0bd0-4796-a01b-51cde1f6c203</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>110719665</xmpDM:startTime>
@@ -1992,11 +2231,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:0b467159-708d-4241-a09c-cffb3063082a</xmpDM:value>
+                                    <xmpDM:value>xmp:id:1444b157-7e6d-4d43-be02-315580d91676</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:0b467159-708d-4241-a09c-cffb3063082a</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:1444b157-7e6d-4d43-be02-315580d91676</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>117383312</xmpDM:startTime>
@@ -2006,11 +2245,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:fa66edaf-14de-4356-a129-893e4e14219e</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e2c41e71-b0db-4aa6-a232-e8e20f3941eb</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:fa66edaf-14de-4356-a129-893e4e14219e</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e2c41e71-b0db-4aa6-a232-e8e20f3941eb</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>126559309</xmpDM:startTime>
@@ -2020,11 +2259,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:365cf296-6329-4dee-86df-5bcab54c816e</xmpDM:value>
+                                    <xmpDM:value>xmp:id:3d714bad-1671-4c44-be0d-e328171c9a18</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:365cf296-6329-4dee-86df-5bcab54c816e</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:3d714bad-1671-4c44-be0d-e328171c9a18</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>135535690</xmpDM:startTime>
@@ -2034,11 +2273,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:5d972ce1-8560-4c39-a7ba-14486273ef48</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e839ff71-fce2-4c21-9041-6d30413ce781</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:5d972ce1-8560-4c39-a7ba-14486273ef48</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e839ff71-fce2-4c21-9041-6d30413ce781</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>141788320</xmpDM:startTime>
@@ -2048,11 +2287,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:1de98f76-dd3c-4622-bf2b-2c38b3547a71</xmpDM:value>
+                                    <xmpDM:value>xmp:id:71511b48-72ac-4b1c-98cb-ca8134ea0d5f</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:1de98f76-dd3c-4622-bf2b-2c38b3547a71</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:71511b48-72ac-4b1c-98cb-ca8134ea0d5f</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>143998725</xmpDM:startTime>
@@ -2062,11 +2301,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:48ae36cc-1579-4c08-8dfd-dcb82c44d72b</xmpDM:value>
+                                    <xmpDM:value>xmp:id:cb45acfa-725f-4cc9-aa6e-509af29ea961</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:48ae36cc-1579-4c08-8dfd-dcb82c44d72b</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:cb45acfa-725f-4cc9-aa6e-509af29ea961</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>152072898</xmpDM:startTime>
@@ -2076,11 +2315,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:a676a4f1-19c4-45dd-b4a1-304175de2e67</xmpDM:value>
+                                    <xmpDM:value>xmp:id:d218ffe7-1a20-4f46-8fa4-ecff5242f2c1</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:a676a4f1-19c4-45dd-b4a1-304175de2e67</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:d218ffe7-1a20-4f46-8fa4-ecff5242f2c1</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>162737820</xmpDM:startTime>
@@ -2090,11 +2329,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:8076dd33-d414-4bfd-8322-cabfd9d62301</xmpDM:value>
+                                    <xmpDM:value>xmp:id:2615209d-a6bf-482d-aebf-522d6a1a81b2</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:8076dd33-d414-4bfd-8322-cabfd9d62301</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:2615209d-a6bf-482d-aebf-522d6a1a81b2</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>172075006</xmpDM:startTime>
@@ -2104,11 +2343,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:e80a1a4a-83ae-4aaf-83d3-c73be7ce5405</xmpDM:value>
+                                    <xmpDM:value>xmp:id:488106a5-81f4-4c17-8bbe-bc07534a218b</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:e80a1a4a-83ae-4aaf-83d3-c73be7ce5405</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:488106a5-81f4-4c17-8bbe-bc07534a218b</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>181027612</xmpDM:startTime>
@@ -2117,11 +2356,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:44ed0fc1-1306-45f2-a93a-a182bf31f42e</xmpDM:value>
+                                    <xmpDM:value>xmp:id:aa8a6000-70a1-4857-ad31-5a7d90af9a0f</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:44ed0fc1-1306-45f2-a93a-a182bf31f42e</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:aa8a6000-70a1-4857-ad31-5a7d90af9a0f</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>190346307</xmpDM:startTime>
@@ -2131,11 +2370,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:2d05384b-b63f-48b1-857b-41fc32f62ebb</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e9affa90-8382-4446-a32e-e5b0a71673cb</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:2d05384b-b63f-48b1-857b-41fc32f62ebb</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e9affa90-8382-4446-a32e-e5b0a71673cb</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>201358465</xmpDM:startTime>
@@ -2145,11 +2384,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:fbec3472-3d81-4256-aabf-d387ea0a6cb8</xmpDM:value>
+                                    <xmpDM:value>xmp:id:47cf2665-36c9-41e3-91c7-09bf807019c0</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:fbec3472-3d81-4256-aabf-d387ea0a6cb8</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:47cf2665-36c9-41e3-91c7-09bf807019c0</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>212522083</xmpDM:startTime>
@@ -2159,11 +2398,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:cbdca8f2-287d-4ecb-b6b7-cb66e484904e</xmpDM:value>
+                                    <xmpDM:value>xmp:id:5f9e7ea5-aeea-4e0f-9eae-d092a49c38d1</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:cbdca8f2-287d-4ecb-b6b7-cb66e484904e</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:5f9e7ea5-aeea-4e0f-9eae-d092a49c38d1</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>221213095</xmpDM:startTime>
@@ -2173,24 +2412,24 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:688434c4-0e6f-4888-9329-c6e09fc25a1d</xmpDM:value>
+                                    <xmpDM:value>xmp:id:232fa1f5-80f2-4d87-aa62-0f30a47cac18</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:688434c4-0e6f-4888-9329-c6e09fc25a1d</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:232fa1f5-80f2-4d87-aa62-0f30a47cac18</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>237469245</xmpDM:startTime>
-                           <xmpDM:name>eins78 ÷ Loco Green vs. Dr. Dre, Snoop Dogg, Nate Dogg - My Next Epidaurus (eins78 Mashup)</xmpDM:name>
+                           <xmpDM:name>EINS78 ÷ Loco Green vs. Dr. Dre, Snoop Dogg, Nate Dogg - My Next Epidaurus (eins78 Mashup)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:b42110cd-39a6-4f74-8f24-c8755570e25e</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e35d1b57-5868-4b4a-ba68-3728d8be9d0c</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:b42110cd-39a6-4f74-8f24-c8755570e25e</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e35d1b57-5868-4b4a-ba68-3728d8be9d0c</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>244542369</xmpDM:startTime>
@@ -2200,11 +2439,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:121c70bb-1204-426a-856c-e873838db22f</xmpDM:value>
+                                    <xmpDM:value>xmp:id:9f56a87c-d400-4ff4-8b1b-c1cc8475760a</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:121c70bb-1204-426a-856c-e873838db22f</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:9f56a87c-d400-4ff4-8b1b-c1cc8475760a</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>248450332</xmpDM:startTime>
@@ -2214,11 +2453,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:37120a59-d6c2-4b44-8e16-2229210e414d</xmpDM:value>
+                                    <xmpDM:value>xmp:id:60562f2f-0b0e-4696-baf9-a250003c616d</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:37120a59-d6c2-4b44-8e16-2229210e414d</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:60562f2f-0b0e-4696-baf9-a250003c616d</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>259048978</xmpDM:startTime>
@@ -2228,11 +2467,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:427dd2f5-86a7-4ee9-9bd3-5452df04b3c1</xmpDM:value>
+                                    <xmpDM:value>xmp:id:4b7ff7d3-50c9-4090-9e99-c938d3641cfd</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:427dd2f5-86a7-4ee9-9bd3-5452df04b3c1</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:4b7ff7d3-50c9-4090-9e99-c938d3641cfd</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>269413914</xmpDM:startTime>
@@ -2242,24 +2481,25 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:7a9fcdf0-e501-48ea-96cc-273eaf273d14</xmpDM:value>
+                                    <xmpDM:value>xmp:id:cb839bda-f742-4e12-8cb6-28e10f748e74</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:7a9fcdf0-e501-48ea-96cc-273eaf273d14</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:cb839bda-f742-4e12-8cb6-28e10f748e74</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>276254432</xmpDM:startTime>
-                           <xmpDM:name>Sean Paul ÷ Temperature (Album Version)</xmpDM:name>
+                           <xmpDM:comment>https://www.discogs.com/Sean-Paul-We-Be-Burnin/release/2665602</xmpDM:comment>
+                           <xmpDM:name>Sean Paul ÷ We Be Burnin' (Legalize It Club Version)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:9cb0624e-c368-4d76-8a16-ead8bce263be</xmpDM:value>
+                                    <xmpDM:value>xmp:id:6418faa6-4cef-456b-b0f8-8450f9749bc9</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:9cb0624e-c368-4d76-8a16-ead8bce263be</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:6418faa6-4cef-456b-b0f8-8450f9749bc9</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>278469761</xmpDM:startTime>
@@ -2269,11 +2509,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:c0942987-f11a-4fb5-a560-4172da82b189</xmpDM:value>
+                                    <xmpDM:value>xmp:id:24c22216-0685-4655-a06c-30b5f83fc2de</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:c0942987-f11a-4fb5-a560-4172da82b189</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:24c22216-0685-4655-a06c-30b5f83fc2de</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>279175050</xmpDM:startTime>
@@ -2283,102 +2523,109 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:70b39b07-6e57-449d-852e-e99581595cfd</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e8aac5be-051a-45eb-9f2a-e6ad6f47000c</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:70b39b07-6e57-449d-852e-e99581595cfd</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e8aac5be-051a-45eb-9f2a-e6ad6f47000c</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>283163851</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/destroy-all-concepts/balkan-beat-box-hermetico-dub-gabriel-kush-arora-remix</xmpDM:comment>
                            <xmpDM:name>Balkan Beat Box ÷ Hermetico (Dub Gabriel/Kush Arora Remix)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:adc33d8c-057c-4ebd-b5a6-6258d586d9a1</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e35faca1-2566-4785-a791-397bd40da4d1</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:adc33d8c-057c-4ebd-b5a6-6258d586d9a1</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e35faca1-2566-4785-a791-397bd40da4d1</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
-                           <xmpDM:startTime>296019909</xmpDM:startTime>
-                           <xmpDM:name>Crookers Present Dr Gonzo ÷ Bust 'Em Up (French Fries Remix)</xmpDM:name>
+                           <xmpDM:startTime>296021345</xmpDM:startTime>
+                           <xmpDM:comment>https://soundcloud.com/annie-mac-presents/crookers-present-dr-gonzo-bust</xmpDM:comment>
+                           <xmpDM:name>Crookers present Dr Gonzo ÷ Bust 'Em Up (French Fries Remix)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:d71f185b-9584-407e-bfb7-e4ddbad51e87</xmpDM:value>
+                                    <xmpDM:value>xmp:id:8e9475df-0a26-4c03-8558-ff6548dae7b4</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:d71f185b-9584-407e-bfb7-e4ddbad51e87</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:8e9475df-0a26-4c03-8558-ff6548dae7b4</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>307741750</xmpDM:startTime>
-                           <xmpDM:name>Warrior One ÷ Bad Like Jimmy Cliff VIP (featuring J2K, Lady Chann, Serocee, &amp; Rubi Dan)</xmpDM:name>
+                           <xmpDM:comment>https://soundcloud.com/warrior-one/badlikejimmycliffvip</xmpDM:comment>
+                           <xmpDM:name>Warrior One ÷ Bad Like Jimmy Cliff VIP (featuring J2K, Lady Chann, Serocee, Rubi Dan)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:65b28a47-c2f4-451f-b354-8b5eca056ce7</xmpDM:value>
+                                    <xmpDM:value>xmp:id:6acdadd4-cb0b-4e9b-8eed-91cecbab2c94</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:65b28a47-c2f4-451f-b354-8b5eca056ce7</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:6acdadd4-cb0b-4e9b-8eed-91cecbab2c94</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
-                           <xmpDM:startTime>315882801</xmpDM:startTime>
+                           <xmpDM:startTime>315883069</xmpDM:startTime>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=lLpxatSPQ1A</xmpDM:comment>
                            <xmpDM:name>Torpedo Boyz ÷ Ich Bin Ausländer (Leider Zum Glück)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:bb57f804-c0a2-4d25-816b-13ced20ec1e3</xmpDM:value>
+                                    <xmpDM:value>xmp:id:a81a9909-a7cc-475e-9593-c1a814443a7c</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:bb57f804-c0a2-4d25-816b-13ced20ec1e3</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:a81a9909-a7cc-475e-9593-c1a814443a7c</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>328948388</xmpDM:startTime>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=tMwbHf_S9jY</xmpDM:comment>
                            <xmpDM:name>SebastiAn ÷ Ross Ross Ross</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:f409e092-4916-42e8-baf0-c2b0e7268f18</xmpDM:value>
+                                    <xmpDM:value>xmp:id:2c7cc674-25d2-4c4f-b8ac-d38159992aa0</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:f409e092-4916-42e8-baf0-c2b0e7268f18</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:2c7cc674-25d2-4c4f-b8ac-d38159992aa0</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>337287837</xmpDM:startTime>
-                           <xmpDM:name>Evil Nine ÷ Heel And Toe</xmpDM:name>
+                           <xmpDM:comment>https://itunes.apple.com/us/album/heel-n-toe-ep/id483360895?i=483360897</xmpDM:comment>
+                           <xmpDM:name>Adam Freeland ÷ Heel &amp; Toe feat. Juice Aleem &amp; Toastie (Evil Nine Remix)</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:d009303a-5867-4cb3-9097-bf1a366b24cf</xmpDM:value>
+                                    <xmpDM:value>xmp:id:d034d5a5-828d-4516-a410-9e60cb6e5080</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:d009303a-5867-4cb3-9097-bf1a366b24cf</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:d034d5a5-828d-4516-a410-9e60cb6e5080</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>355903694</xmpDM:startTime>
-                           <xmpDM:name>Unknown ÷ BITTERSWEET FUNK</xmpDM:name>
+                           <xmpDM:comment>https://www.youtube.com/watch?v=czOucweY8nE</xmpDM:comment>
+                           <xmpDM:name>Bonde do Vinho, Bonde do Tigrão &amp; Os Carrascos ÷ Três Tenores﻿</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:83532c76-91d1-4185-803a-a16b83c157e8</xmpDM:value>
+                                    <xmpDM:value>xmp:id:ef3784f7-663d-4b1a-8728-4ef6e4f453d1</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:83532c76-91d1-4185-803a-a16b83c157e8</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:ef3784f7-663d-4b1a-8728-4ef6e4f453d1</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>365476825</xmpDM:startTime>
@@ -2388,11 +2635,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:38f07b3f-d24b-4878-9464-24f680724443</xmpDM:value>
+                                    <xmpDM:value>xmp:id:7f902edb-d159-48f8-9713-c91e8c6b182e</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:38f07b3f-d24b-4878-9464-24f680724443</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:7f902edb-d159-48f8-9713-c91e8c6b182e</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>368647598</xmpDM:startTime>
@@ -2402,11 +2649,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:e66c54b5-945e-44d6-83e8-92eddfa09650</xmpDM:value>
+                                    <xmpDM:value>xmp:id:de9c2cb2-1c9c-480a-ad75-4bbfa672cc4a</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:e66c54b5-945e-44d6-83e8-92eddfa09650</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:de9c2cb2-1c9c-480a-ad75-4bbfa672cc4a</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>380481506</xmpDM:startTime>
@@ -2416,11 +2663,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:a7b96622-52df-449d-a6d0-7a5de4b8a201</xmpDM:value>
+                                    <xmpDM:value>xmp:id:c239e01b-44d4-4749-80fd-d5032002d582</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:a7b96622-52df-449d-a6d0-7a5de4b8a201</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:c239e01b-44d4-4749-80fd-d5032002d582</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>393826318</xmpDM:startTime>
@@ -2430,11 +2677,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:d9aa0d4b-3091-494e-bf80-b779185d8dd4</xmpDM:value>
+                                    <xmpDM:value>xmp:id:e9d477f3-d68f-4a38-9388-21ca4c7b81fa</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:d9aa0d4b-3091-494e-bf80-b779185d8dd4</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:e9d477f3-d68f-4a38-9388-21ca4c7b81fa</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>400075200</xmpDM:startTime>
@@ -2444,11 +2691,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:46e45680-8b5f-45e5-8c35-b9ad9fbd3c71</xmpDM:value>
+                                    <xmpDM:value>xmp:id:c1efa3ec-4162-4bd9-a5a5-57cfb1cdcd83</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:46e45680-8b5f-45e5-8c35-b9ad9fbd3c71</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:c1efa3ec-4162-4bd9-a5a5-57cfb1cdcd83</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>409305202</xmpDM:startTime>
@@ -2458,24 +2705,25 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:36b6fbcb-19f1-4926-b2c9-cc859edf26cf</xmpDM:value>
+                                    <xmpDM:value>xmp:id:d805351d-659f-4735-935e-3b9868f7f6af</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:36b6fbcb-19f1-4926-b2c9-cc859edf26cf</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:d805351d-659f-4735-935e-3b9868f7f6af</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>423904044</xmpDM:startTime>
+                           <xmpDM:comment>https://myspace.com/nixsniva</xmpDM:comment>
                            <xmpDM:name>Nixs Niva ÷ Bang Bang</xmpDM:name>
                            <xmpDM:cuePointParams>
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:028268a5-b30b-450f-b760-8165a665e1f6</xmpDM:value>
+                                    <xmpDM:value>xmp:id:bfdcbea3-cae7-41cc-86b6-8982577f8679</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:028268a5-b30b-450f-b760-8165a665e1f6</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:bfdcbea3-cae7-41cc-86b6-8982577f8679</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>438778258</xmpDM:startTime>
@@ -2485,11 +2733,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:eb13218f-12a5-4715-abff-a0e86cddbb0d</xmpDM:value>
+                                    <xmpDM:value>xmp:id:1a95f64d-8d59-4e3d-80b5-39a21f81a82b</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:eb13218f-12a5-4715-abff-a0e86cddbb0d</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:1a95f64d-8d59-4e3d-80b5-39a21f81a82b</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>445754753</xmpDM:startTime>
@@ -2499,11 +2747,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:63038b2d-34a4-42a0-b24a-ccf1e9b0bbd2</xmpDM:value>
+                                    <xmpDM:value>xmp:id:b7d7872e-f47b-445c-86c9-61ec54113895</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:63038b2d-34a4-42a0-b24a-ccf1e9b0bbd2</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:b7d7872e-f47b-445c-86c9-61ec54113895</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>456609006</xmpDM:startTime>
@@ -2512,11 +2760,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:cd6c14ed-a13d-49ed-960c-0d4df1117764</xmpDM:value>
+                                    <xmpDM:value>xmp:id:1e270d33-4d6b-4b15-81fc-0abfc5aca26f</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:cd6c14ed-a13d-49ed-960c-0d4df1117764</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:1e270d33-4d6b-4b15-81fc-0abfc5aca26f</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>464335515</xmpDM:startTime>
@@ -2526,11 +2774,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:07fae110-6281-40b4-9873-cfb9ad7e7d87</xmpDM:value>
+                                    <xmpDM:value>xmp:id:09db7e77-22aa-40dd-b8f9-b32b623d9917</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:07fae110-6281-40b4-9873-cfb9ad7e7d87</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:09db7e77-22aa-40dd-b8f9-b32b623d9917</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>472485603</xmpDM:startTime>
@@ -2540,11 +2788,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:57091779-c203-4a71-9bb9-08c5742a01a9</xmpDM:value>
+                                    <xmpDM:value>xmp:id:8a610b4a-97fa-417f-8d65-01718e55c818</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:57091779-c203-4a71-9bb9-08c5742a01a9</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:8a610b4a-97fa-417f-8d65-01718e55c818</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>479986808</xmpDM:startTime>
@@ -2554,11 +2802,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:ad5edcdc-a3a2-4445-9a5a-0f39f57a9202</xmpDM:value>
+                                    <xmpDM:value>xmp:id:49cd3a2a-f04c-4d23-a2f6-0efda8286113</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:ad5edcdc-a3a2-4445-9a5a-0f39f57a9202</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:49cd3a2a-f04c-4d23-a2f6-0efda8286113</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>521234471</xmpDM:startTime>
@@ -2568,11 +2816,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:135b5e07-6a65-4c8f-be62-213e166fbeb8</xmpDM:value>
+                                    <xmpDM:value>xmp:id:af0d5a39-2fb7-415f-99df-d93e486b8b86</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:135b5e07-6a65-4c8f-be62-213e166fbeb8</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:af0d5a39-2fb7-415f-99df-d93e486b8b86</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>532719651</xmpDM:startTime>
@@ -2582,11 +2830,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:447b3c86-4a87-4da8-a630-825174ba067b</xmpDM:value>
+                                    <xmpDM:value>xmp:id:949ab41c-6000-45e6-aeee-00bef9313e83</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:447b3c86-4a87-4da8-a630-825174ba067b</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:949ab41c-6000-45e6-aeee-00bef9313e83</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>549134082</xmpDM:startTime>
@@ -2596,11 +2844,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:c6c327cf-c975-487c-ac20-e05204cc30fc</xmpDM:value>
+                                    <xmpDM:value>xmp:id:a6e906d5-fb26-43df-bfdc-7decea325562</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:c6c327cf-c975-487c-ac20-e05204cc30fc</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:a6e906d5-fb26-43df-bfdc-7decea325562</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>558208072</xmpDM:startTime>
@@ -2610,11 +2858,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:efc8eac9-5a31-4184-aee7-07e261bf058f</xmpDM:value>
+                                    <xmpDM:value>xmp:id:7064ffee-da5e-40c0-b1a1-f05b7c44de0d</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:efc8eac9-5a31-4184-aee7-07e261bf058f</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:7064ffee-da5e-40c0-b1a1-f05b7c44de0d</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>568558759</xmpDM:startTime>
@@ -2624,11 +2872,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:ef909b96-fea2-4704-b5b7-db9c18dc0128</xmpDM:value>
+                                    <xmpDM:value>xmp:id:9319d201-1444-4a9b-965d-39b8878e932f</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:ef909b96-fea2-4704-b5b7-db9c18dc0128</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:9319d201-1444-4a9b-965d-39b8878e932f</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>576482654</xmpDM:startTime>
@@ -2638,11 +2886,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:18e0d056-6b12-48e3-9ab4-b34911845c41</xmpDM:value>
+                                    <xmpDM:value>xmp:id:1f7a820e-6aa7-499b-9b00-1a55d101f7d3</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:18e0d056-6b12-48e3-9ab4-b34911845c41</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:1f7a820e-6aa7-499b-9b00-1a55d101f7d3</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>581603350</xmpDM:startTime>
@@ -2652,11 +2900,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:abd503f4-02fb-4744-949a-98d97485123b</xmpDM:value>
+                                    <xmpDM:value>xmp:id:d15f4c15-65ef-4ae5-99dc-df6125964377</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:abd503f4-02fb-4744-949a-98d97485123b</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:d15f4c15-65ef-4ae5-99dc-df6125964377</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>590378244</xmpDM:startTime>
@@ -2666,11 +2914,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:a79fa2c8-35a6-48d1-9b5c-e54f2c7c88f3</xmpDM:value>
+                                    <xmpDM:value>xmp:id:5b3a4385-6543-4afc-9415-e8df3fe65721</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:a79fa2c8-35a6-48d1-9b5c-e54f2c7c88f3</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:5b3a4385-6543-4afc-9415-e8df3fe65721</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>600870838</xmpDM:startTime>
@@ -2680,11 +2928,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:740ee67f-5a22-4ddc-974b-addf09230341</xmpDM:value>
+                                    <xmpDM:value>xmp:id:59869043-7a79-4e6c-8aa1-1228889ee339</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:740ee67f-5a22-4ddc-974b-addf09230341</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:59869043-7a79-4e6c-8aa1-1228889ee339</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>609704550</xmpDM:startTime>
@@ -2694,11 +2942,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:431c66ae-aded-41e9-b47f-565f1a62e8a0</xmpDM:value>
+                                    <xmpDM:value>xmp:id:96773bfb-f06f-45d0-9d7c-369cf8cabd94</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:431c66ae-aded-41e9-b47f-565f1a62e8a0</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:96773bfb-f06f-45d0-9d7c-369cf8cabd94</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>615859991</xmpDM:startTime>
@@ -2708,11 +2956,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:9fb1e4a1-ac94-4196-bc14-0aec1a1c18e9</xmpDM:value>
+                                    <xmpDM:value>xmp:id:6f35cee1-9fa1-4ce1-9374-664be2752816</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:9fb1e4a1-ac94-4196-bc14-0aec1a1c18e9</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:6f35cee1-9fa1-4ce1-9374-664be2752816</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>627532749</xmpDM:startTime>
@@ -2721,11 +2969,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:639b8c25-9c1f-4ab5-8b57-a045796c411b</xmpDM:value>
+                                    <xmpDM:value>xmp:id:64f7799c-757d-4191-b980-057b929e77cb</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:639b8c25-9c1f-4ab5-8b57-a045796c411b</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:64f7799c-757d-4191-b980-057b929e77cb</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>630794859</xmpDM:startTime>
@@ -2735,11 +2983,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:5c5262dc-0ffc-4350-a89b-dd8a7454c9de</xmpDM:value>
+                                    <xmpDM:value>xmp:id:ed7d5e6e-7ec7-4326-ab70-395ccbf48c03</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:5c5262dc-0ffc-4350-a89b-dd8a7454c9de</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:ed7d5e6e-7ec7-4326-ab70-395ccbf48c03</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>641150533</xmpDM:startTime>
@@ -2749,11 +2997,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:7d0ed002-1444-421e-92d2-078c0eadfc2e</xmpDM:value>
+                                    <xmpDM:value>xmp:id:589da42f-73bd-41ac-8657-35bb91104bee</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:7d0ed002-1444-421e-92d2-078c0eadfc2e</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:589da42f-73bd-41ac-8657-35bb91104bee</xmpDM:guid>
                         </rdf:li>
                         <rdf:li rdf:parseType="Resource">
                            <xmpDM:startTime>654149183</xmpDM:startTime>
@@ -2763,11 +3011,11 @@
                               <rdf:Seq>
                                  <rdf:li rdf:parseType="Resource">
                                     <xmpDM:key>marker_guid</xmpDM:key>
-                                    <xmpDM:value>xmp:id:4d92eb10-284c-4397-b21c-2fd117e3ad71</xmpDM:value>
+                                    <xmpDM:value>xmp:id:cda072e7-679d-4ea3-aee1-6554a53d6dee</xmpDM:value>
                                  </rdf:li>
                               </rdf:Seq>
                            </xmpDM:cuePointParams>
-                           <xmpDM:guid>xmp:id:4d92eb10-284c-4397-b21c-2fd117e3ad71</xmpDM:guid>
+                           <xmpDM:guid>xmp:id:cda072e7-679d-4ea3-aee1-6554a53d6dee</xmpDM:guid>
                         </rdf:li>
                      </rdf:Seq>
                   </xmpDM:markers>
