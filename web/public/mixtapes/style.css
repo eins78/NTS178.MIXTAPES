@@ -1,0 +1,299 @@
+/* base setup
+   ---------- 
+*/
+*, :before, :after  { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* - sticky footer stuff ala bootstrap: */
+html, body {  
+  /* The html and body elements cannot have any padding or margin. */
+  height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -8em;
+  /* Pad bottom by footer height */
+  padding: 0 0 8em;
+}
+/* Set the fixed height of the footer here */
+footer {
+  height: 8em;
+}
+
+/* base style 
+  -----------
+*/
+body {
+	font-family: "Helvetica", sans-serif;
+	text-align: center;
+	color: hsla(0, 0%, 96%, 1);
+	background-color: hsla(0, 0%, 8%, 1);
+}
+
+/* helpers*/
+a, a:link, a:visited {
+	color: hsla(0, 0%, 96%, 1);
+	cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+p, ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+ul li { padding-bottom: 0.5em }
+
+ul.inline {
+  display: inline;
+  margin-top: 0
+}
+ul.inline li { display: inline }
+ul.inline.dashed li:after { content: ' – ' }
+ul.inline.dashed li:last-child:after { content: '' }
+ul.inline.textual li:after { content: ', ' }
+ul.inline.textual li:last-child:before { content: ' and ' }
+ul.inline.textual li:last-child:after { content: '.' }
+
+body {
+  transition: background-color 100ms linear;
+}
+
+/* layout and typo */
+hr {
+  border: none;
+  	border-top: 0.25em solid hsla(0, 0%, 16%, 1);
+}
+header, 
+section h1, section h2, section h3,
+#mixtapes {
+  	font-size: 2em;
+}
+section {
+  margin-bottom: 1em;
+}
+
+section h2 {
+/*   margin: 0; */
+}
+/*
+body section:last-child {
+  margin-bottom: 4em
+}
+*/
+section h1, section h2, section h3 {
+  font-weight: 900;
+}
+#mixtapes > * > *,
+section {
+  max-width: 16em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about {
+  height: 10em;
+}
+@media screen and (min-width: 32em){
+  #mixtapes > * > *, section { max-width: 24em; }
+  #about { height: 8em }
+}
+@media screen and (min-width: 64em){
+  #mixtapes > * > *, section { max-width: 42em; }
+  #about { height: 6em }
+}
+
+/* section-specific stuff */
+header {
+	height: 4em;
+	padding-bottom: 1em;
+}
+footer {
+  font-weight: 100;
+  line-height: 3em;
+	padding: 3em 0;
+}
+header h1 {
+  	font-weight: 900;
+  margin: 0.25em 0 0.75em 0;
+}
+
+header a, header a:link, header a:visited,
+.mixtape a, .mixtape a:link, .mixtape a:visited,
+section h1 a, section h2 a:link, section h1 a:visited,
+section h2 a, section h2 a:link, section h2 a:visited,
+section h3 a, section h3 a:link, section h3 a:visited {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 0.25em solid hsla(0, 0%, 96%, 1);
+}
+a:hover,
+.mixtape .info a:hover,
+header a:hover {
+	color: blue;
+	border-bottom-color: blue;
+}
+#mixtapes a:hover {
+	color: hsla(0, 0%, 15%, 1);
+}
+
+/*
+section h2:before {
+  content: '¶';
+  font-size: 0.8em;
+  position: relative;
+  bottom: 0.2em;
+  color: hsla(0, 0%, 100%, 0.5)
+}
+*/
+
+.mixtape .info {
+ font-size: 0.45em;
+ line-height: 1;
+ margin-top: 1em;
+ font-weight: 100;
+}
+.mixtape .info a {
+ border-bottom-width: 0.15em;
+ font-weight: 100;
+}
+
+.mixtape.unreleased {
+	opacity: 0.55;
+}
+.mixtape.unstarted {
+	opacity: 0.15;
+}
+
+/*
+.mixtape a, .mixtape a:link, .mixtape a:visited {
+  border-color: hsla(0, 0%, 96%, 1);
+}
+*/
+
+.mixtape.nr1,
+body[data-selected="1"] header h1 {
+  font-weight: 900;
+	font-family: "Arvo", sans-serif;
+} 
+.mixtape.nr1 {
+  font-size: 1.025em;
+	color: hsla(24, 82%, 62%, 1);	
+}
+.mixtape.nr1 a {
+	border-color: hsla(24, 82%, 62%, 1);	
+}
+body[data-selected="1"] {
+  font-family: "Arvo", sans-serif;
+	color: hsla(0, 0%, 96%, 1);
+	background-color: hsla(24, 82%, 62%, 1);	
+	border-color: hsla(0, 0%, 96%, 1);
+}
+body[data-selected="1"] .mixtape.nr1 a,
+body[data-selected="1"] .mixtape.nr1 .info,
+body[data-selected="1"] header h1,
+body[data-selected="1"] hr,
+body[data-selected="1"] footer {
+  font-family: "Arvo", sans-serif;
+	color: hsla(0, 0%, 96%, 1);
+	border-color: hsla(0, 0%, 96%, 1);
+}
+
+ 
+.mixtape.nr2 {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.85em;  /* just for the item width */
+	color: hsla(1, 57%, 55%, 1);
+  padding-bottom: 0.1em;
+} 
+.mixtape.nr2 a {
+  border-color: hsla(1, 57%, 55%, 1);
+}
+body[data-selected="2"] header h1 a,
+body[data-selected="2"] section > h2 ,
+body[data-selected="2"] footer > * {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.3em;
+}
+body[data-selected="2"],
+body[data-selected="2"] .mixtape.nr2 a,
+body[data-selected="2"] .mixtape.nr2 .info,
+body[data-selected="2"] header h1 a,
+body[data-selected="2"] xfooter {
+	color: hsla(0, 0%, 96%, 1);
+	border-color: hsla(0, 0%, 96%, 1);
+}
+.mixtape.nr2 .info {
+  font-size: 0.35em;
+}
+
+.mixtape.nr3,
+body[data-selected="3"] section > * ,
+body[data-selected="3"] footer > *,
+body[data-selected="3"] header h1 {
+	font-family: "Exo", sans-serif;
+	font-weight: 100;
+} 
+
+.mixtape.nr3 {
+  font-size: 1.15em;
+	color: #62b16c;
+  padding-bottom: 0.7em;
+} 
+.mixtape.nr3 a {
+  border-color: #537f97;
+}
+body[data-selected="3"] {
+/* 	background-color: #62b16c;	 */
+}
+body[data-selected="3"],
+body[data-selected="3"] .mixtape.nr3 a,
+body[data-selected="3"] .mixtape.nr3 .info,
+body[data-selected="3"] a,
+body[data-selected="3"] footer {
+/*     border-color: #537f97; */
+/*     color: #537f97; */
+	color: hsla(0, 0%, 96%, 1);
+}
+body[data-selected="3"] .mixtape.nr3 a {
+	border-bottom-color: hsla(0, 0%, 96%, 1);
+}
+.mixtape.nr3 .info {
+}
+
+.mixtape.nr4,
+body[data-selected="4"] section > * ,
+body[data-selected="4"] header h1 {
+	font-family: "Raleway", sans-serif;
+} 
+
+.mixtape.nr4 {
+  font-size: 1.15em;
+	color: #d02b5d;
+  padding-bottom: 0.7em;
+} 
+.mixtape.nr4 a {
+  border-color: #04fe70;
+}
+body[data-selected="4"] {
+/* 	background-color: #d02b5d;	 */
+}
+body[data-selected="4"],
+body[data-selected="4"] .mixtape.nr4 a,
+body[data-selected="4"] .mixtape.nr4 .info,
+body[data-selected="4"] header h1 {
+	color: hsla(0, 0%, 96%, 1);
+	border-bottom-color: #04fe70;
+}
+body[data-selected="4"] .mixtape.nr4 a {
+	border-bottom-color: hsla(0, 0%, 96%, 1);
+}
+.mixtape.nr4 .info {
+}
